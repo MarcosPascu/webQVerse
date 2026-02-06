@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos - APES UC3M</title>
+    <meta name="description"
+        content="Proyectos de ingeniería física en la UC3M: Cohetería, Simulación, Electrónica y más.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">APES</a>
+            <button class="nav-toggle" aria-label="Abrir menú">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="proyectos.html" class="nav-link active">Proyectos</a></li>
+                <li><a href="carreras.html" class="nav-link">Carreras</a></li>
+                <li><a href="eventos.html" class="nav-link">Eventos</a></li>
+                <li><a href="equipo.html" class="nav-link">Equipo</a></li>
+                <li><a href="colaboraciones.html" class="nav-link">Colaboraciones</a></li>
+                <li><a href="#contacto" class="nav-link button-primary">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <h1>Proyectos e Innovación</h1>
+            <p>Desarrollo técnico liderado por estudiantes de Ingeniería Física</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-container">
+        <div class="container">
+            <!-- Subsection: Active Projects -->
+            <section id="activos" class="page-section">
+                <div class="section-title">
+                    <h2>Proyectos Activos</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="grid projects-grid">
+                    <article class="card project-card">
+                        <div class="card-content">
+                            <span class="tag active">Activo</span>
+                            <h3>Cohetería Experimental</h3>
+                            <p>Diseño y construcción de cohetes sonda con recuperación electrónica y telemetría en
+                                tiempo real. Objetivo: 3km de apogeo.</p>
+                            <a href="articulo.html?id=coheteria" class="read-more">Ver detalles &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="card project-card">
+                        <div class="card-content">
+                            <span class="tag active">Activo</span>
+                            <h3>Simulación de Fluidos</h3>
+                            <p>Desarrollo de un solver CFM propio en C++ y Python para analizar dinámicas de vórtices y
+                                turbulencia.</p>
+                            <a href="articulo.html?id=fluidos" class="read-more">Ver detalles &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="card project-card">
+                        <div class="card-content">
+                            <span class="tag active">Activo</span>
+                            <h3>Detector de Muones</h3>
+                            <p>Construcción de una cámara de niebla y centelladores para la detección de rayos cósmicos
+                                secundarios.</p>
+                            <a href="articulo.html?id=muones" class="read-more">Ver detalles &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Subsection: Past Projects -->
+            <section id="pasados" class="page-section">
+                <div class="section-title">
+                    <h2>Proyectos Finalizados</h2>
+                    <div class="divider"></div>
+                </div>
+                <div class="grid projects-grid">
+                    <article class="card project-card">
+                        <div class="card-content">
+                            <span class="tag completed">Finalizado 2024</span>
+                            <h3>Acelerador Didáctico</h3>
+                            <p>Ciclotrón de bajo coste para demostraciones de la fuerza de Lorentz en laboratorios de
+                                secundaria.</p>
+                            <a href="articulo.html?id=acelerador" class="read-more">Ver memoria &rarr;</a>
+                        </div>
+                    </article>
+                    <article class="card project-card">
+                        <div class="card-content">
+                            <span class="tag completed">Finalizado 2023</span>
+                            <h3>Brazo Robótico Hápitco</h3>
+                            <p>Interfaz de control remoto con feedback de fuerza para manipulación de materiales
+                                peligrosos.</p>
+                            <a href="articulo.html?id=robotico" class="read-more">Ver memoria &rarr;</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Subsection: Student Initiatives -->
+            <section id="iniciativas" class="page-section">
+                <div class="section-title">
+                    <h2>Iniciativas Estudiantiles</h2>
+                    <div class="divider"></div>
+                </div>
+                <p style="margin-bottom: 20px; color: var(--secondary-color);">Proyectos personales de miembros apoyados
+                    por la asociación.</p>
+                <div class="list-view">
+                    <div class="list-item">
+                        <a href="articulo.html?id=radio" class="list-link">
+                            <h3>Radioastronomía Amateur</h3>
+                            <span class="meta">Por Grupo de Óptica</span>
+                        </a>
+                    </div>
+                    <div class="list-item">
+                        <a href="articulo.html?id=biotech" class="list-link">
+                            <h3>Sensores Biofísicos</h3>
+                            <span class="meta">Por María G.</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contacto">
+        <!-- (Same footer content) -->
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h3>APES UC3M</h3>
+                <p>Asociación de Ingeniería Física de la Universidad Carlos III de Madrid.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>apes@alumnos.uc3m.es</p>
+                <p>Av. de la Universidad, 30</p>
+                <p>28911 Leganés, Madrid</p>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <ul class="social-links">
+                    <li><a href="#">LinkedIn</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 APES UC3M. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
