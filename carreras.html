@@ -1,171 +1,213 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carreras - APES UC3M</title>
-    <meta name="description"
-        content="Salidas profesionales de ingeniería física: Industria, Investigación, Consultoría y más.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    <meta
+      name="description"
+      content="Salidas profesionales de ingeniería física: Industria, Investigación, Consultoría y más."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="container nav-container">
-            <a href="index.html" class="logo">APES</a>
-            <button class="nav-toggle" aria-label="Abrir menú">
-                <span class="hamburger"></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="proyectos.html" class="nav-link">Proyectos</a></li>
-                <li><a href="carreras.html" class="nav-link active">Carreras</a></li>
-                <li><a href="eventos.html" class="nav-link">Eventos</a></li>
-                <li><a href="equipo.html" class="nav-link">Equipo</a></li>
-                <li><a href="colaboraciones.html" class="nav-link">Colaboraciones</a></li>
-                <li><a href="#contacto" class="nav-link button-primary">Contacto</a></li>
-            </ul>
-        </div>
+      <div class="container nav-container">
+        <a href="index.html" class="logo">QVerse</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="proyectos.html" class="nav-link">Proyectos</a></li>
+          <li><a href="carreras.html" class="nav-link active">Carreras</a></li>
+          <li><a href="eventos.html" class="nav-link">Eventos</a></li>
+          <li><a href="equipo.html" class="nav-link">Equipo</a></li>
+          <li>
+            <a href="colaboraciones.html" class="nav-link">Colaboraciones</a>
+          </li>
+          <li>
+            <a href="#contacto" class="nav-link button-primary">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Page Header -->
-    <header class="page-header" style="background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);">
-        <div class="container">
-            <h1>Carreras y Futuro Profesional</h1>
-            <p>Guía de orientación laboral y académica para ingenieros físicos</p>
-        </div>
+    <header
+      class="page-header"
+      style="background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%)"
+    >
+      <div class="container">
+        <h1>Carreras y Futuro Profesional</h1>
+        <p>Guía de orientación laboral y académica para ingenieros físicos</p>
+      </div>
     </header>
 
     <!-- Main Content -->
     <main class="page-container">
-        <div class="container">
+      <div class="container">
+        <!-- Subsection: Career Paths -->
+        <section id="sectores" class="page-section">
+          <div class="section-title">
+            <h2>Sectores Secundarios</h2>
+            <div class="divider"></div>
+          </div>
+          <div class="grid careers-grid">
+            <div class="career-item">
+              <div class="icon-box">⚡</div>
+              <h3>Energía y Medio Ambiente</h3>
+              <p>
+                Desarrollo de tecnologías para la fusión nuclear, optimización
+                de plantas solares y almacenamiento.
+              </p>
+              <a href="articulo.html?id=energia" class="read-more"
+                >Leer artículo: El rol del IF en Energía &rarr;</a
+              >
+            </div>
+            <div class="career-item">
+              <div class="icon-box">💻</div>
+              <h3>Computación y Datos</h3>
+              <p>
+                Simulación numérica, análisis de Big Data y desarrollo de
+                algoritmos de Machine Learning en física.
+              </p>
+              <a href="articulo.html?id=datos" class="read-more"
+                >Leer artículo: Data Science y Física &rarr;</a
+              >
+            </div>
+            <div class="career-item">
+              <div class="icon-box">🔬</div>
+              <h3>Nanotecnología y Materiales</h3>
+              <p>
+                Diseño de nuevos semiconductores, fotónica y materiales
+                avanzados para la industria.
+              </p>
+              <a href="articulo.html?id=nano" class="read-more"
+                >Leer artículo: I+D en Materiales &rarr;</a
+              >
+            </div>
+          </div>
+        </section>
 
-            <!-- Subsection: Career Paths -->
-            <section id="sectores" class="page-section">
-                <div class="section-title">
-                    <h2>Sectores Principales</h2>
-                    <div class="divider"></div>
-                </div>
-                <div class="grid careers-grid">
-                    <div class="career-item">
-                        <div class="icon-box">⚡</div>
-                        <h3>Energía y Medio Ambiente</h3>
-                        <p>Desarrollo de tecnologías para la fusión nuclear, optimización de plantas solares y
-                            almacenamiento.</p>
-                        <a href="articulo.html?id=energia" class="read-more">Leer artículo: El rol del IF en Energía
-                            &rarr;</a>
-                    </div>
-                    <div class="career-item">
-                        <div class="icon-box">💻</div>
-                        <h3>Computación y Datos</h3>
-                        <p>Simulación numérica, análisis de Big Data y desarrollo de algoritmos de Machine Learning en
-                            física.</p>
-                        <a href="articulo.html?id=datos" class="read-more">Leer artículo: Data Science y Física
-                            &rarr;</a>
-                    </div>
-                    <div class="career-item">
-                        <div class="icon-box">🔬</div>
-                        <h3>Nanotecnología y Materiales</h3>
-                        <p>Diseño de nuevos semiconductores, fotónica y materiales avanzados para la industria.</p>
-                        <a href="articulo.html?id=nano" class="read-more">Leer artículo: I+D en Materiales &rarr;</a>
-                    </div>
-                </div>
-            </section>
+        <!-- Subsection: Offers -->
+        <section id="ofertas" class="page-section bg-light-rounded">
+          <div class="section-title">
+            <h2>Ofertas y Becas Destacadas</h2>
+            <div class="divider"></div>
+          </div>
+          <div class="list-view">
+            <div class="list-item">
+              <a href="#" class="list-link">
+                <h3>Beca de Colaboración - Dpto. Física UC3M</h3>
+                <span class="meta"
+                  >Prácticas | Leganés - Publicado: 02/05/2026</span
+                >
+              </a>
+            </div>
+            <div class="list-item">
+              <a href="#" class="list-link">
+                <h3>Ingeniero Junior I+D - GMV</h3>
+                <span class="meta"
+                  >Empleo | Tres Cantos - Publicado: 28/04/2026</span
+                >
+              </a>
+            </div>
+            <div class="list-item">
+              <a href="#" class="list-link">
+                <h3>PhD Poistion in Quantum Optics - ICFO</h3>
+                <span class="meta"
+                  >Doctorado | Barcelona - Publicado: 20/04/2026</span
+                >
+              </a>
+            </div>
+          </div>
+          <div style="margin-top: 20px; text-align: center">
+            <a
+              href="#"
+              class="btn btn-outline"
+              style="
+                border-color: var(--primary-color);
+                color: var(--primary-color);
+              "
+              >Ver tablón completo</a
+            >
+          </div>
+        </section>
 
-            <!-- Subsection: Offers -->
-            <section id="ofertas" class="page-section bg-light-rounded">
-                <div class="section-title">
-                    <h2>Ofertas y Becas Destacadas</h2>
-                    <div class="divider"></div>
-                </div>
-                <div class="list-view">
-                    <div class="list-item">
-                        <a href="#" class="list-link">
-                            <h3>Beca de Colaboración - Dpto. Física UC3M</h3>
-                            <span class="meta">Prácticas | Leganés - Publicado: 02/05/2026</span>
-                        </a>
-                    </div>
-                    <div class="list-item">
-                        <a href="#" class="list-link">
-                            <h3>Ingeniero Junior I+D - GMV</h3>
-                            <span class="meta">Empleo | Tres Cantos - Publicado: 28/04/2026</span>
-                        </a>
-                    </div>
-                    <div class="list-item">
-                        <a href="#" class="list-link">
-                            <h3>PhD Poistion in Quantum Optics - ICFO</h3>
-                            <span class="meta">Doctorado | Barcelona - Publicado: 20/04/2026</span>
-                        </a>
-                    </div>
-                </div>
-                <div style="margin-top: 20px; text-align: center;">
-                    <a href="#" class="btn btn-outline"
-                        style="border-color: var(--primary-color); color: var(--primary-color);">Ver tablón completo</a>
-                </div>
-            </section>
-
-            <!-- Subsection: Alumni Stories -->
-            <section id="alumni" class="page-section">
-                <div class="section-title">
-                    <h2>Experiencias Alumni</h2>
-                    <div class="divider"></div>
-                </div>
-                <div class="grid projects-grid">
-                    <article class="card">
-                        <div class="card-content">
-                            <span class="tag">Entrevista</span>
-                            <h3>De la UC3M al CERN</h3>
-                            <p>Entrevista con Pablo R., trabajando actualmente en el detector ATLAS.</p>
-                            <a href="articulo.html?id=cern" class="read-more">Leer entrevista &rarr;</a>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <div class="card-content">
-                            <span class="tag">Trayectoria</span>
-                            <h3>Emprender en Fotónica</h3>
-                            <p>Cómo Lucía M. fundó su propia startup de sensores ópticos.</p>
-                            <a href="articulo.html?id=startup" class="read-more">Leer historia &rarr;</a>
-                        </div>
-                    </article>
-                </div>
-            </section>
-
-        </div>
+        <!-- Subsection: Alumni Stories -->
+        <section id="alumni" class="page-section">
+          <div class="section-title">
+            <h2>Experiencias Alumni</h2>
+            <div class="divider"></div>
+          </div>
+          <div class="grid projects-grid">
+            <article class="card">
+              <div class="card-content">
+                <span class="tag">Entrevista</span>
+                <h3>De la UC3M al CERN</h3>
+                <p>
+                  Entrevista con Pablo R., trabajando actualmente en el detector
+                  ATLAS.
+                </p>
+                <a href="articulo.html?id=cern" class="read-more"
+                  >Leer entrevista &rarr;</a
+                >
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-content">
+                <span class="tag">Trayectoria</span>
+                <h3>Emprender en Fotónica</h3>
+                <p>
+                  Cómo Lucía M. fundó su propia startup de sensores ópticos.
+                </p>
+                <a href="articulo.html?id=startup" class="read-more"
+                  >Leer historia &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
     </main>
 
     <!-- Footer -->
     <footer id="contacto">
-        <!-- (Same footer content) -->
-        <div class="container footer-content">
-            <div class="footer-col">
-                <h3>APES UC3M</h3>
-                <p>Asociación de Ingeniería Física de la Universidad Carlos III de Madrid.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Contacto</h4>
-                <p>apes@alumnos.uc3m.es</p>
-            </div>
-            <div class="footer-col">
-                <h4>Síguenos</h4>
-                <ul class="social-links">
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
-            </div>
+      <!-- (Same footer content) -->
+      <div class="container footer-content">
+        <div class="footer-col">
+          <h3>APES UC3M</h3>
+          <p>
+            Asociación de Ingeniería Física de la Universidad Carlos III de
+            Madrid.
+          </p>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 APES UC3M. Todos los derechos reservados.</p>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>apes@alumnos.uc3m.es</p>
         </div>
+        <div class="footer-col">
+          <h4>Síguenos</h4>
+          <ul class="social-links">
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 APES UC3M. Todos los derechos reservados.</p>
+      </div>
     </footer>
 
-
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
