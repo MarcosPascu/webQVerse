@@ -1,170 +1,227 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos - QuantumVerse</title>
+    <meta
+      name="description"
+      content="Calendario de eventos, coferencias y talleres de la Asociación de Ingeniería Física."
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventos - APES UC3M</title>
-    <meta name="description"
-        content="Calendario de eventos, coferencias y talleres de la Asociación de Ingeniería Física.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
+  <body>
     <!-- Navigation -->
     <nav class="navbar">
-        <div class="container nav-container">
-            <a href="index.html" class="logo">APES</a>
-            <button class="nav-toggle" aria-label="Abrir menú">
-                <span class="hamburger"></span>
-            </button>
-            <ul class="nav-menu">
-                <li><a href="index.html" class="nav-link">Home</a></li>
-                <li><a href="proyectos.html" class="nav-link">Proyectos</a></li>
-                <li><a href="carreras.html" class="nav-link">Carreras</a></li>
-                <li><a href="eventos.html" class="nav-link active">Eventos</a></li>
-                <li><a href="equipo.html" class="nav-link">Equipo</a></li>
-                <li><a href="colaboraciones.html" class="nav-link">Colaboraciones</a></li>
-                <li><a href="#contacto" class="nav-link button-primary">Contacto</a></li>
-            </ul>
-        </div>
+      <div class="container nav-container">
+        <a href="index.html" class="logo">APES</a>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="proyectos.html" class="nav-link">Proyectos</a></li>
+          <li><a href="carreras.html" class="nav-link">Carreras</a></li>
+          <li><a href="eventos.html" class="nav-link active">Eventos</a></li>
+          <li><a href="equipo.html" class="nav-link">Equipo</a></li>
+          <li>
+            <a href="colaboraciones.html" class="nav-link">Colaboraciones</a>
+          </li>
+          <li>
+            <a href="#contacto" class="nav-link button-primary">Contacto</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Page Header -->
-    <header class="page-header" style="background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);">
-        <div class="container">
-            <h1>Eventos y Actividades</h1>
-            <p>Conectando estudiantes, academia e industria</p>
-        </div>
+    <header
+      class="page-header"
+      style="background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%)"
+    >
+      <div class="container">
+        <h1>Eventos y Actividades</h1>
+        <p>Conectando estudiantes, academia e industria</p>
+      </div>
     </header>
 
     <!-- Main Content -->
     <main class="page-container">
-        <div class="container">
+      <div class="container">
+        <!-- Subsection: Upcoming Events -->
+        <section id="proximos" class="page-section">
+          <div class="section-title">
+            <h2>Próximos Eventos</h2>
+            <div class="divider"></div>
+          </div>
+          <div class="events-list">
+            <div class="event-item">
+              <div class="date-badge">
+                <span class="day">15</span>
+                <span class="month">MAY</span>
+              </div>
+              <div class="event-details">
+                <h3>Seminario de Fotónica Aplicada</h3>
+                <p>
+                  Charla con expertos del sector sobre el futuro de las
+                  comunicaciones ópticas.
+                </p>
+                <span class="location"
+                  >📍 Auditorio UC3M, Leganés | 🕒 12:30h</span
+                >
+                <a href="articulo.html?id=fotonica-sem" class="read-more"
+                  >Inscribirse &rarr;</a
+                >
+              </div>
+            </div>
+            <div class="event-item">
+              <div class="date-badge">
+                <span class="day">22</span>
+                <span class="month">MAY</span>
+              </div>
+              <div class="event-details">
+                <h3>Taller de Python Científico</h3>
+                <p>
+                  Introducción a librerías Numpy y Scipy para cálculo numérico.
+                </p>
+                <span class="location">📍 Laboratorio 2.1.C08 | 🕒 16:00h</span>
+                <a href="articulo.html?id=python-ws" class="read-more"
+                  >Ver temario &rarr;</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <!-- Subsection: Upcoming Events -->
-            <section id="proximos" class="page-section">
-                <div class="section-title">
-                    <h2>Próximos Eventos</h2>
-                    <div class="divider"></div>
-                </div>
-                <div class="events-list">
-                    <div class="event-item">
-                        <div class="date-badge">
-                            <span class="day">15</span>
-                            <span class="month">MAY</span>
-                        </div>
-                        <div class="event-details">
-                            <h3>Seminario de Fotónica Aplicada</h3>
-                            <p>Charla con expertos del sector sobre el futuro de las comunicaciones ópticas.</p>
-                            <span class="location">📍 Auditorio UC3M, Leganés | 🕒 12:30h</span>
-                            <a href="articulo.html?id=fotonica-sem" class="read-more">Inscribirse &rarr;</a>
-                        </div>
-                    </div>
-                    <div class="event-item">
-                        <div class="date-badge">
-                            <span class="day">22</span>
-                            <span class="month">MAY</span>
-                        </div>
-                        <div class="event-details">
-                            <h3>Taller de Python Científico</h3>
-                            <p>Introducción a librerías Numpy y Scipy para cálculo numérico.</p>
-                            <span class="location">📍 Laboratorio 2.1.C08 | 🕒 16:00h</span>
-                            <a href="articulo.html?id=python-ws" class="read-more">Ver temario &rarr;</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <!-- Subsection: Annual Congress -->
+        <section id="congreso" class="page-section bg-light-rounded">
+          <div class="section-title">
+            <h2>Congreso Nacional de Física</h2>
+            <div class="divider"></div>
+          </div>
+          <!-- Highlight Card -->
+          <div
+            style="
+              display: flex;
+              gap: 30px;
+              align-items: center;
+              flex-wrap: wrap;
+            "
+          >
+            <div style="flex: 1; min-width: 300px">
+              <h3>V Congreso de Estudiantes de Física</h3>
+              <p style="margin-bottom: 20px">
+                El evento más importante del año. Tres días de ponencias,
+                keynotes internacionales y presentación de posters.
+              </p>
+              <ul
+                style="
+                  margin-bottom: 20px;
+                  list-style: disc;
+                  padding-left: 20px;
+                  color: var(--secondary-color);
+                "
+              >
+                <li>Networking con empresas punteras.</li>
+                <li>Concurso de posters científicos.</li>
+                <li>Cena de gala.</li>
+              </ul>
+              <a href="articulo.html?id=congreso" class="btn btn-primary"
+                >Más información</a
+              >
+            </div>
+            <div
+              style="
+                flex: 1;
+                min-width: 300px;
+                height: 300px;
+                background: #ddd;
+                border-radius: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #888;
+                font-weight: bold;
+              "
+            >
+              Foto del Congreso Pasado
+            </div>
+          </div>
+        </section>
 
-            <!-- Subsection: Annual Congress -->
-            <section id="congreso" class="page-section bg-light-rounded">
-                <div class="section-title">
-                    <h2>Congreso Nacional de Física</h2>
-                    <div class="divider"></div>
-                </div>
-                <!-- Highlight Card -->
-                <div style="display: flex; gap: 30px; align-items: center; flex-wrap: wrap;">
-                    <div style="flex: 1; min-width: 300px;">
-                        <h3>V Congreso de Estudiantes de Física</h3>
-                        <p style="margin-bottom: 20px;">
-                            El evento más importante del año. Tres días de ponencias, keynotes internacionales y
-                            presentación de posters.
-                        </p>
-                        <ul
-                            style="margin-bottom: 20px; list-style: disc; padding-left: 20px; color: var(--secondary-color);">
-                            <li>Networking con empresas punteras.</li>
-                            <li>Concurso de posters científicos.</li>
-                            <li>Cena de gala.</li>
-                        </ul>
-                        <a href="articulo.html?id=congreso" class="btn btn-primary">Más información</a>
-                    </div>
-                    <div
-                        style="flex: 1; min-width: 300px; height: 300px; background: #ddd; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #888; font-weight: bold;">
-                        Foto del Congreso Pasado
-                    </div>
-                </div>
-            </section>
-
-            <!-- Subsection: Past Events -->
-            <section id="pasados" class="page-section">
-                <div class="section-title">
-                    <h2>Eventos Pasados</h2>
-                    <div class="divider"></div>
-                </div>
-                <div class="grid projects-grid">
-                    <article class="card">
-                        <div class="card-content">
-                            <span class="tag completed">Abril 2024</span>
-                            <h3>Visita al sincrotrón ALBA</h3>
-                            <p>Excursión académica para conocer las instalaciones del sincrotrón en Barcelona.</p>
-                            <a href="articulo.html?id=alba" class="read-more">Ver galería &rarr;</a>
-                        </div>
-                    </article>
-                    <article class="card">
-                        <div class="card-content">
-                            <span class="tag completed">Marzo 2024</span>
-                            <h3>Hackathon de Física</h3>
-                            <p>24 horas para resolver problemas complejos de física computacional.</p>
-                            <a href="articulo.html?id=hackathon" class="read-more">Ver ganadores &rarr;</a>
-                        </div>
-                    </article>
-                </div>
-            </section>
-
-        </div>
+        <!-- Subsection: Past Events -->
+        <section id="pasados" class="page-section">
+          <div class="section-title">
+            <h2>Eventos Pasados</h2>
+            <div class="divider"></div>
+          </div>
+          <div class="grid projects-grid">
+            <article class="card">
+              <div class="card-content">
+                <span class="tag completed">Abril 2024</span>
+                <h3>Visita al sincrotrón ALBA</h3>
+                <p>
+                  Excursión académica para conocer las instalaciones del
+                  sincrotrón en Barcelona.
+                </p>
+                <a href="articulo.html?id=alba" class="read-more"
+                  >Ver galería &rarr;</a
+                >
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-content">
+                <span class="tag completed">Marzo 2024</span>
+                <h3>Hackathon de Física</h3>
+                <p>
+                  24 horas para resolver problemas complejos de física
+                  computacional.
+                </p>
+                <a href="articulo.html?id=hackathon" class="read-more"
+                  >Ver ganadores &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
     </main>
 
     <!-- Footer -->
     <footer id="contacto">
-        <!-- (Same footer content) -->
-        <div class="container footer-content">
-            <div class="footer-col">
-                <h3>APES UC3M</h3>
-                <p>Asociación de Ingeniería Física de la Universidad Carlos III de Madrid.</p>
-            </div>
-            <div class="footer-col">
-                <h4>Contacto</h4>
-                <p>apes@alumnos.uc3m.es</p>
-            </div>
-            <div class="footer-col">
-                <h4>Síguenos</h4>
-                <ul class="social-links">
-                    <li><a href="#">LinkedIn</a></li>
-                    <li><a href="#">Twitter</a></li>
-                </ul>
-            </div>
+      <!-- (Same footer content) -->
+      <div class="container footer-content">
+        <div class="footer-col">
+          <h3>APES UC3M</h3>
+          <p>
+            Asociación de Ingeniería Física de la Universidad Carlos III de
+            Madrid.
+          </p>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 APES UC3M. Todos los derechos reservados.</p>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <p>apes@alumnos.uc3m.es</p>
         </div>
+        <div class="footer-col">
+          <h4>Síguenos</h4>
+          <ul class="social-links">
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 APES UC3M. Todos los derechos reservados.</p>
+      </div>
     </footer>
 
-
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
