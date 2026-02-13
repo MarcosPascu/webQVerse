@@ -151,6 +151,104 @@ const articles = {
     },
 
     // Eventos
+    // NUEVO EVENTO ILUNION
+    'ilunion': { 
+        title: 'Ilunion University Game 2026',
+        category: 'Competición',
+        author: 'Hunger 4 Innovation',
+        date: '12-13 de Marzo, 2026',
+        lead: 'Participaremos en el nuevo concurso de Hunger 4 Innovation, ahora con Moeve. Un reto de innovación abierta para resolver problemas reales.',
+        body: `
+            <h2>¿En qué consiste?</h2>
+            <p>El Ilunion University Game es una competición donde equipos multidisciplinares resuelven retos propuestos por empresas reales. Este año colaboramos con <strong>Moeve</strong>.</p>
+            
+            <h2>Detalles del evento</h2>
+            <p>El evento tendrá lugar en el Patio del Campus. Durante dos días, los equipos trabajarán en soluciones innovadoras.</p>
+            
+            <h3>Horario</h3>
+            <ul>
+                <li><strong>12 Marzo:</strong> Presentación de retos y formación de equipos (10:00h).</li>
+                <li><strong>13 Marzo:</strong> Desarrollo de soluciones y presentación final ante el jurado.</li>
+            </ul>
+
+            <p>¡No pierdas la oportunidad de demostrar tu talento y ganar premios increíbles!</p>
+        `
+    },
+    // VISITA ICMM (NUEVO)
+    'icmm': {
+        title: 'Visita al Instituto de Ciencia de Materiales de Madrid (ICMM-CSIC)',
+        category: 'Visita Académica',
+        author: 'Comité de Eventos',
+        date: '6 Febrero 2026', // Pon la fecha exacta si la tienes
+        lead: 'Una jornada inmersiva en uno de los centros de investigación más prestigiosos del CSIC, donde pudimos ver de primera mano el futuro de la nanotecnología y los nuevos materiales.',
+        body: `
+            <h2>Explorando la materia a nanoescala</h2>
+            <p>Durante la visita, fuimos recibidos por investigadores del centro que nos introdujeron a las líneas de investigación actuales: desde materiales para energía sostenible hasta espintrónica y fotónica.</p>
+            
+            <h2>Recorrido por los laboratorios</h2>
+            <p>Tuvimos acceso a las instalaciones singulares del instituto, incluyendo la sala blanca y los laboratorios de microscopía avanzada (AFM y STM), donde observamos cómo se manipulan materiales átomo a átomo.</p>
+
+            <div style="margin: 30px 0; text-align: center;">
+                <h3>Vídeo Resumen de la Visita</h3>
+                
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 8px;">
+                    <iframe src="https://www.youtube.com/embed/TU_ID_VIDEO_AQUI" 
+                            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                            frameborder="0" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+
+                </div>
+
+            <h2>Conclusiones</h2>
+            <p>Una experiencia inspiradora que nos permitió conectar los conceptos teóricos de la carrera con la investigación real de vanguardia.</p>
+        `
+    },
+    // MIT IQUHACK 2026
+    'iquhack': {
+        title: 'MIT iQuHACK 2026: Hackathon de Computación Cuántica',
+        category: 'Competición Internacional',
+        author: 'Equipo Quantum APES',
+        date: '23 Enero - 25 Enero 2026',
+        lead: 'Una delegación de nuestra asociación viajó hasta Cambridge, MA (EE.UU.) para participar en el hackathon de computación cuántica más prestigioso del mundo, organizado por el MIT.',
+        body: `
+            <h2>El Desafío en Boston</h2>
+            <p>Fuimos seleccionados entre cientos de solicitantes internacionales para competir presencialmente en el campus del MIT. El reto consistió en 24 horas ininterrumpidas de programación utilizando hardware cuántico real.</p>
+            
+            <h2>Nuestra Solución</h2>
+            <p>Nuestro equipo trabajó en el desafío propuesto por los patrocinadores de la industria, desarrollando un algoritmo híbrido para la optimización de problemas complejos.</p>
+
+            <div class="image-placeholder" style="width: 100%; height: 350px; background-color: #f0f0f0; border-radius: 8px; margin: 30px 0; display: flex; align-items: center; justify-content: center; color: #666;">
+                Foto del equipo en el MIT
+            </div>
+
+            <h2>Networking Internacional</h2>
+            <p>Más allá de la competición, fue una oportunidad única para conectar con físicos e ingenieros de todo el mundo y conocer de cerca el ecosistema de startups cuánticas de Boston.</p>
+        `
+    },
+    // GANADORES ILUNION 2025
+    'ilunion-win': {
+        title: '¡Ganadores del Ilunion University Game 2025!',
+        category: 'Logros y Premios',
+        author: 'Equipo APES',
+        date: 'Abril 2025',
+        lead: 'Nuestro equipo se alzó con el primer premio en la competición de innovación abierta, presentando una solución revolucionaria para la gestión aeroportuaria ante la directiva de Ilunion.',
+        body: `
+            <h2>El Reto: Facility Services</h2>
+            <p>El desafío consistía en mejorar la eficiencia en el sector de servicios. Centrandonos en el problema crítico: la gestión de flujos de pasajeros en los controles de seguridad de los aeropuertos.</p>
+            
+            <h2>Nuestra Solución</h2>
+            <p>Desarrollamos un sistema integral que combina análisis de datos en tiempo real y rediseño de procesos para optimizar el paso por los arcos de seguridad, reduciendo tiempos de espera y mejorando la experiencia del viajero.</p>
+
+            <div class="image-placeholder" style="width: 100%; height: 400px; background-color: #e0e0e0; border-radius: 8px; margin: 30px 0; display: flex; align-items: center; justify-content: center; color: #555; font-weight: bold;">
+                Foto del equipo recogiendo el premio
+            </div>
+
+            <h2>La Gran Final</h2>
+            <p>Tras una larga noche de trabajo, defendimos el proyecto directamente ante la junta directiva de Ilunion. La viabilidad y el impacto innovador de la propuesta nos valieron el primer puesto del certamen.</p>
+        `
+    },
     'fotonica-sem': {
         title: 'Seminario de Fotónica Aplicada',
         category: 'Evento Académico',
