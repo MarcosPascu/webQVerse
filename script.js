@@ -163,31 +163,27 @@ const articles = {
             <p>El Ilunion University Game es una competición donde equipos multidisciplinares resuelven retos propuestos por empresas reales. Este año colaboramos con <strong>Moeve</strong>.</p>
             
             <h2>Detalles del evento</h2>
-            <p>El evento tendrá lugar en el Patio del Campus. Durante dos días, los equipos trabajarán en soluciones innovadoras.</p>
+            <p>El evento tendrá lugar en Patio Campus. Durante dos días, los equipos trabajarán en soluciones innovadoras.</p>
             
             <h3>Horario</h3>
             <ul>
-                <li><strong>12 Marzo:</strong> Presentación de retos y formación de equipos (10:00h).</li>
+                <li><strong>12 Marzo:</strong> Presentación de retos e inicio de la solución (10:00h).</li>
                 <li><strong>13 Marzo:</strong> Desarrollo de soluciones y presentación final ante el jurado.</li>
             </ul>
 
-            <p>¡No pierdas la oportunidad de demostrar tu talento y ganar premios increíbles!</p>
+            <p>¡No pierdas de participar en nuestro equipo y demostrar tu talento!</p>
         `
     },
     // VISITA ICMM (NUEVO)
     'icmm': {
         title: 'Visita al Instituto de Ciencia de Materiales de Madrid (ICMM-CSIC)',
         category: 'Visita Académica',
-        author: 'Comité de Eventos',
+        author: 'Antonio Jesús Valenciano',
         date: '6 Febrero 2026', // Pon la fecha exacta si la tienes
-        lead: 'Una jornada inmersiva en uno de los centros de investigación más prestigiosos del CSIC, donde pudimos ver de primera mano el futuro de la nanotecnología y los nuevos materiales.',
+        lead: 'Participamos en una jornada inmersiva en uno de los centros de investigación más prestigiosos del CSIC, donde pudimos ver de primera mano el futuro de la nanotecnología y los nuevos materiales.',
         body: `
             <h2>Explorando la materia a nanoescala</h2>
-            <p>Durante la visita, fuimos recibidos por investigadores del centro que nos introdujeron a las líneas de investigación actuales: desde materiales para energía sostenible hasta espintrónica y fotónica.</p>
-            
-            <h2>Recorrido por los laboratorios</h2>
-            <p>Tuvimos acceso a las instalaciones singulares del instituto, incluyendo la sala blanca y los laboratorios de microscopía avanzada (AFM y STM), donde observamos cómo se manipulan materiales átomo a átomo.</p>
-
+            <p>Durante la visita, fuimos recibidos por investigadores del centro que nos introdujeron a las líneas de investigación actuales: desde ordenadores hechos con luz hasta materiales ferroelectricos para suministrar sensores de manera sostenible.</p>
             <div style="margin: 30px 0; text-align: center;">
                 <h3>Vídeo Resumen de la Visita</h3>
                 
@@ -209,22 +205,22 @@ const articles = {
     'iquhack': {
         title: 'MIT iQuHACK 2026: Hackathon de Computación Cuántica',
         category: 'Competición Internacional',
-        author: 'Equipo Quantum APES',
+        author: 'Equipo Quantum Verse',
         date: '23 Enero - 25 Enero 2026',
-        lead: 'Una delegación de nuestra asociación viajó hasta Cambridge, MA (EE.UU.) para participar en el hackathon de computación cuántica más prestigioso del mundo, organizado por el MIT.',
+        lead: 'Una delegación de nuestra asociación participó telemáticamente en uno de los hackathon de computación cuántica más prestigioso del mundo, organizado por el MIT.',
         body: `
             <h2>El Desafío en Boston</h2>
-            <p>Fuimos seleccionados entre cientos de solicitantes internacionales para competir presencialmente en el campus del MIT. El reto consistió en 24 horas ininterrumpidas de programación utilizando hardware cuántico real.</p>
+            <p>Fuimos seleccionados entre cientos de solicitantes internacionales para competir telematicamente. El reto consistió en 24 horas ininterrumpidas de programación utilizando bases cuánticas de importantes empresas como IonQ o Nvidia.</p>
             
             <h2>Nuestra Solución</h2>
-            <p>Nuestro equipo trabajó en el desafío propuesto por los patrocinadores de la industria, desarrollando un algoritmo híbrido para la optimización de problemas complejos.</p>
+            <p>Nuestro equipo trabajó en el desafío propuesto por IonQ. una competición de estrategia tipo Risk sobre una red cuántica. El objetivo era construir una red de entrelazamiento (entanglement) conectando ciudades (nodos) mediante la purificación de pares de Bell ruidosos, gestionando un presupuesto limitado de recursos.</p>
 
             <div class="image-placeholder" style="width: 100%; height: 350px; background-color: #f0f0f0; border-radius: 8px; margin: 30px 0; display: flex; align-items: center; justify-content: center; color: #666;">
-                Foto del equipo en el MIT
+                Foto de resultados
             </div>
 
             <h2>Networking Internacional</h2>
-            <p>Más allá de la competición, fue una oportunidad única para conectar con físicos e ingenieros de todo el mundo y conocer de cerca el ecosistema de startups cuánticas de Boston.</p>
+            <p>Más allá de la competición, fue una oportunidad única para conectar con físicos e ingenieros de todo el mundo y conocer de cerca el ecosistema de empresas cuánticas a nivel mundial.</p>
         `
     },
     // GANADORES ILUNION 2025
