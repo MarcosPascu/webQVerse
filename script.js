@@ -91,6 +91,22 @@ const articles = {
     },
 
     // Carreras
+    // NUEVO ARTÍCULO: COMPUTACIÓN CUÁNTICA
+    'quantum': {
+        title: 'El Ingeniero Físico en la Computación y Tecnologías Cuánticas',
+        category: 'Carreras Profesionales',
+        author: 'Orientación Laboral',
+        date: 'February 2026',
+        lead: 'La segunda revolución cuántica ya está aquí, y los ingenieros físicos son el perfil perfecto para liderarla, combinando mecánica cuántica pura con ingeniería de sistemas.',
+        body: `
+            <h2>Hardware vs Software Cuántico</h2>
+            <p>El sector se divide en dos grandes ramas. Por un lado, el diseño del hardware (qubits superconductores, iones atrapados, fotónica), donde se requieren conocimientos profundos de física del estado sólido y criogenia.</p>
+            <p>Por otro lado, el desarrollo de algoritmos (software), donde se aplica el álgebra lineal y la teoría de la información cuántica para resolver problemas inabarcables para la computación clásica, como la simulación molecular o la criptografía (y otras muchas aplicaciones todavía por descrubir).</p>
+
+            <h2>Empresas Punteras</h2>
+            <p>Gigantes como IBM, Google y startups como QuEra o Multiverse Computing (en España) están reclutando activamente perfiles que entiendan la física subyacente para programar sus ordenadores cuánticos reales.</p>
+        `
+    },
     'energia': {
         title: 'El Rol del Ingeniero Físico en Energía',
         category: 'Carreras Profesionales',
