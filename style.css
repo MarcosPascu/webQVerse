@@ -651,3 +651,20 @@ footer {
         font-size: 2rem;
     }
 }
+.video-container {
+    position: relative;
+    padding-bottom: 125%; /* Ajusta este % si el video es muy vertical o cuadrado */
+    height: 0;
+    overflow: hidden;
+    margin: 20px 0;
+    border-radius: 12px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}

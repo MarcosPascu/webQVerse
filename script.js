@@ -247,19 +247,31 @@ const articles = {
         date: 'Abril 2025',
         lead: 'Nuestro equipo se alzó con el primer premio en la competición de innovación abierta, presentando una solución revolucionaria para la gestión aeroportuaria ante la directiva de Ilunion.',
         body: `
-            <h2>El Reto: Facility Services</h2>
+            <div class="video-container">
+            <iframe 
+            src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7320091460702240768" 
+            height="500" 
+            width="100%" 
+            frameborder="0" 
+            allowfullscreen="" 
+            title="Publicación insertada">
+            </iframe>
+            </div>
+            <h2>El Reto: Facility Services</h2> <br>
             <p>El desafío consistía en mejorar la eficiencia en el sector de servicios. Centrandonos en el problema crítico: la gestión de flujos de pasajeros en los controles de seguridad de los aeropuertos.</p>
             
-            <h2>Nuestra Solución</h2>
+            <br>
+            <h2>Nuestra Solución</h2> <br>
             <p>Desarrollamos un sistema integral que combina análisis de datos en tiempo real y rediseño de procesos para optimizar el paso por los arcos de seguridad, reduciendo tiempos de espera y mejorando la experiencia del viajero.</p>
-
-            <div class="image-placeholder" style="width: 100%; height: 400px; background-color: #e0e0e0; border-radius: 8px; margin: 30px 0; display: flex; align-items: center; justify-content: center; color: #555; font-weight: bold;">
-                Foto del equipo recogiendo el premio
+            <br>
+            <img src="img/Ilunion-presentacion.jpeg" class="image-placeholder">
             </div>
-
-            <h2>La Gran Final</h2>
+            <br>
+            <h2>La Gran Final</h2> <br>
             <p>Tras una larga noche de trabajo, defendimos el proyecto directamente ante la junta directiva de Ilunion. La viabilidad y el impacto innovador de la propuesta nos valieron el primer puesto del certamen.</p>
-        `
+            <br>
+            <img src="img/Ilunion_win.jpeg" class="image-placeholder">
+        `,
     },
     'fotonica-sem': {
         title: 'Seminario de Fotónica Aplicada',
