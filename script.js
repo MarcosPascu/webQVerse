@@ -157,26 +157,33 @@ const articles = {
 
     // Eventos
     // NUEVO EVENTO ILUNION
-    'ilunion': { 
-        title: 'Ilunion University Game 2026',
+  'ilunion': { 
+        title: 'Moeve Innovation Challenge 2026',
         category: 'Competición',
         author: 'Hunger 4 Innovation',
         date: '12-13 de Marzo, 2026',
         lead: 'Participaremos en el nuevo concurso de Hunger 4 Innovation, ahora con Moeve. Un reto de innovación abierta para resolver problemas reales.',
         body: `
             <h2>¿En qué consiste?</h2>
-            <p>El Ilunion University Game es una competición donde equipos multidisciplinares resuelven retos propuestos por empresas reales. Este año colaboramos con <strong>Moeve</strong>.</p>
+            <p>El Moeve Innovation Challenge es una competición donde equipos multidisciplinares resuelven retos propuestos por empresas reales. Este año colaboramos con <strong>Moeve</strong>.</p>
             
+            <div style="display: flex; justify-content: center; margin: 30px 0;">
+                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DUnS-MygCyU/?utm_source=ig_web_copy_link" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                </blockquote>
+            </div>
+
             <h2>Detalles del evento</h2>
             <p>El evento tendrá lugar en Patio Campus. Durante dos días, los equipos trabajarán en soluciones innovadoras.</p>
-            
+            <br>
             <h3>Horario</h3>
             <ul>
-                <li><strong>12 Marzo:</strong> Presentación de retos e inicio de la solución (10:00h).</li>
-                <li><strong>13 Marzo:</strong> Desarrollo de soluciones y presentación final ante el jurado.</li>
+                <li><strong>12 Marzo:</strong> Presentación de retos e inicio de la solución (10:00-19:30).</li>
+                <li><strong>13 Marzo:</strong> Desarrollo de soluciones y presentación final ante el jurado. (8:00-13:00)</li>
             </ul>
 
-            <p>¡No pierdas de participar en nuestro equipo y demostrar tu talento!</p>
+            <p>¡No pierdas la oportunidad de participar en nuestro equipo y demostrar tu talento!</p>
+            
+            <script async src="//www.instagram.com/embed.js"></script>
         `
     },
     // VISITA ICMM (NUEVO)
@@ -234,7 +241,7 @@ const articles = {
         category: 'Logros y Premios',
         author: 'Equipo APES',
         date: 'Abril 2025',
-        lead: 'Nuestro equipo se alzó con el primer premio en la competición de innovación abierta, presentando una solución revolucionaria para la gestión aeroportuaria ante la directiva de Ilunion.',
+        lead: 'Nuestro equipo se alzó con el primer premio en la competición de innovación abierta organizado por Hunger 4 Innovation, presentando una solución revolucionaria para la gestión aeroportuaria ante la directiva de Ilunion.',
         body: `
             <div class="video-container">
             <iframe 
@@ -359,7 +366,6 @@ document.addEventListener('DOMContentLoaded', function () {
         const authorEl = document.getElementById('article-author');
         const dateEl = document.getElementById('article-date');
         const bodyEl = document.getElementById('article-body');
-        const leadEl = document.querySelector('.lead'); // A veces es clase, o podemos usar ID si lo pusimos
         const breadcrumbTitle = document.getElementById('breadcrumb-title');
         const breadcrumbSection = document.getElementById('breadcrumb-section');
 
@@ -371,21 +377,26 @@ document.addEventListener('DOMContentLoaded', function () {
         if (breadcrumbTitle) breadcrumbTitle.textContent = article.title;
         if (breadcrumbSection) breadcrumbSection.textContent = article.category;
 
-        // El cuerpo del artículo puede ser HTML complejo, así que lo construimos
-        // Mantenemos el lead si existe en los datos
         let contentHtml = '';
         if (article.lead) {
             contentHtml += `<p class="lead" style="font-size: 1.2rem; margin-bottom: 20px;">${article.lead}</p>`;
         }
         contentHtml += article.body;
 
-        if (bodyEl) bodyEl.innerHTML = contentHtml;
+        if (bodyEl) {
+            bodyEl.innerHTML = contentHtml;
+
+            // --- CAMBIO AQUÍ: Procesar el post de Instagram ---
+            // Esto detecta el post inyectado y lo renderiza visualmente
+            if (window.instgrm) {
+                window.instgrm.Embeds.process();
+            }
+        }
 
         // Actualizar título de la página
-        document.title = `${article.title} - APES UC3M`;
+        document.title = `${article.title} - QVerse`;
 
     } else if (window.location.pathname.includes('articulo.html')) {
-        // Estar en articulo.html sin ID válido
         const bodyEl = document.getElementById('article-body');
         const titleEl = document.getElementById('article-title');
 
@@ -393,17 +404,17 @@ document.addEventListener('DOMContentLoaded', function () {
         if (bodyEl) bodyEl.innerHTML = '<p>Lo sentimos, el artículo que buscas no existe o ha sido movido.</p><a href="index.html" class="btn btn-primary" style="margin-top:20px; display:inline-block;">Volver al inicio</a>';
     }
 });
+
 // --- Función para el Tablón de Ofertas ---
 function toggleTablon() {
     const extra = document.getElementById('extra-items');
     const btn = document.getElementById('btn-tablon');
 
-    // Comprobamos si las ofertas están ocultas
     if (extra.style.display === "none") {
-        extra.style.display = "block";    // Las muestra
-        btn.innerText = "Ver menos";      // Cambia el texto del botón
+        extra.style.display = "block";
+        btn.innerText = "Ver menos";
     } else {
-        extra.style.display = "none";     // Las oculta
+        extra.style.display = "none";
         btn.innerText = "Ver tablón completo";
     }
 }
