@@ -78,17 +78,6 @@ const articles = {
             <p>Utilizando receptores SDR (Software Defined Radio) de bajo coste y una antena de diseño casero, hemos logrado detectar el paso de los brazos espirales de la Vía Láctea.</p>
         `
     },
-    'biotech': {
-        title: 'Sensores Biofísicos',
-        category: 'Iniciativa Estudiantil',
-        author: 'María G.',
-        date: 'En curso',
-        lead: 'Investigación sobre el uso de grafeno en biosensores para la detección temprana de patógenos en fluidos.',
-        body: `
-            <h2>Innovación en Salud</h2>
-            <p>El proyecto explora las propiedades eléctricas del grafeno y cómo estas cambian en presencia de ciertas moléculas biológicas. Un paso prometedor hacia diagnósticos más rápidos y baratos.</p>
-        `
-    },
 
     // Carreras
     // NUEVO ARTÍCULO: COMPUTACIÓN CUÁNTICA

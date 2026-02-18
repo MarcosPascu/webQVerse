@@ -114,42 +114,39 @@
             <h2>Ofertas y Becas Destacadas</h2>
             <div class="divider"></div>
           </div>
+
           <div class="list-view">
             <div class="list-item">
-              <a href="#" class="list-link">
-                <h3>Beca de Colaboración - Dpto. Física UC3M</h3>
-                <span class="meta"
-                  >Prácticas | Leganés - Publicado: 02/05/2026</span
-                >
+              <a href="https://jobs.icfo.eu/?detail=1069" target="_blank" class="list-link">
+                <h3>Undergraduate Summer Fellowship - ICFO</h3>
+                <span class="meta">Verano / Grado | Barcelona - Publicado: 05/02/2026</span>
               </a>
             </div>
-            <div class="list-item">
-              <a href="#" class="list-link">
-                <h3>Ingeniero Junior I+D - GMV</h3>
-                <span class="meta"
-                  >Empleo | Tres Cantos - Publicado: 28/04/2026</span
-                >
-              </a>
-            </div>
-            <div class="list-item">
-              <a href="#" class="list-link">
-                <h3>PhD Poistion in Quantum Optics - ICFO</h3>
-                <span class="meta"
-                  >Doctorado | Barcelona - Publicado: 20/04/2026</span
-                >
-              </a>
+            
+            <div id="extra-items" style="display: none;">
+              <div class="list-item">
+                <a href="https://fulbright.es/..." target="_blank" class="list-link">
+                  <h3>Becas Fulbright - Ampliación de Estudios</h3>
+                  <span class="meta">Máster/PhD | Internacional - Deadline: 14/04/2026</span>
+                </a>
+              </div>
+              <div class="list-item">
+                <a href="https://kpmg.com/..." target="_blank" class="list-link">
+                  <h3>KPMG Blue Summer Experience</h3>
+                  <span class="meta">Prácticas | España - Publicado: 28/01/2026</span>
+                </a>
+              </div>
             </div>
           </div>
+
           <div style="margin-top: 20px; text-align: center">
-            <a
-              href="#"
-              class="btn btn-outline"
-              style="
-                border-color: var(--primary-color);
-                color: var(--primary-color);
-              "
-              >Ver tablón completo</a
-            >
+            <a href="javascript:void(0)" 
+              id="btn-tablon"
+              onclick="toggleTablon()"
+              class="btn btn-outline" 
+              style="border-color: var(--primary-color); color: var(--primary-color);">
+              Ver tablón completo
+            </a>
           </div>
         </section>
 
