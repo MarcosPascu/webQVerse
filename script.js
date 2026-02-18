@@ -393,3 +393,17 @@ document.addEventListener('DOMContentLoaded', function () {
         if (bodyEl) bodyEl.innerHTML = '<p>Lo sentimos, el artículo que buscas no existe o ha sido movido.</p><a href="index.html" class="btn btn-primary" style="margin-top:20px; display:inline-block;">Volver al inicio</a>';
     }
 });
+// --- Función para el Tablón de Ofertas ---
+function toggleTablon() {
+    const extra = document.getElementById('extra-items');
+    const btn = document.getElementById('btn-tablon');
+
+    // Comprobamos si las ofertas están ocultas
+    if (extra.style.display === "none") {
+        extra.style.display = "block";    // Las muestra
+        btn.innerText = "Ver menos";      // Cambia el texto del botón
+    } else {
+        extra.style.display = "none";     // Las oculta
+        btn.innerText = "Ver tablón completo";
+    }
+}
