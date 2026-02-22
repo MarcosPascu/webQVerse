@@ -36,9 +36,9 @@ const articles = {
         category: 'Proyecto Finalizado',
         author: 'Grupo de Ingeniería Física',
         date: 'Febrero 2025',
-        lead: 'Construcción de una cámara de niebla y centelladores plásticos para la detección y conteo de rayos cósmicos secundarios en la superficie terrestre.',
+        lead: 'Construcción de una cámara de niebla para la detección de partículas cósmicas.',
         body: `
-            <h2>Detección de Rayos Cósmicos</h2>
+            <h2>Detección de Rayos Cósmicos</h2><br>
             <p>Los muones son partículas elementales producidas por la interacción de rayos cósmicos con la atmósfera. Nuestro detector nos permite "ver" esta lluvia invisible de partículas.</p>
             
             <h2>Diseño del Detector</h2>
