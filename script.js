@@ -31,11 +31,11 @@ const articles = {
             <p>Implementamos métodos de volúmenes finitos para discretizar el dominio y utilizamos esquemas temporales de alto orden para garantizar la estabilidad numérica.</p>
         `
     },
-    'muones': {
-        title: 'Detector de Muones',
-        category: 'Proyecto Activo',
-        author: 'Grupo de Física de Partículas',
-        date: 'Actualmente en desarrollo',
+    'niebla': {
+        title: 'Cámara de niebla',
+        category: 'Proyecto Finalizado',
+        author: 'Grupo de Ingeniería Física',
+        date: 'Febrero 2025',
         lead: 'Construcción de una cámara de niebla y centelladores plásticos para la detección y conteo de rayos cósmicos secundarios en la superficie terrestre.',
         body: `
             <h2>Detección de Rayos Cósmicos</h2>
