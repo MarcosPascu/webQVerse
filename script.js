@@ -36,10 +36,10 @@ const articles = {
         category: 'Proyecto Finalizado',
         author: 'Grupo de Ingeniería Física',
         date: 'Febrero 2025',
-        lead: 'Construcción de una cámara de niebla para la detección de partículas cósmicas.',
+        lead: 'Hacer visible lo invisible: una cámara de niebla en la UC3M',
         body: `
-            <h2>Detección de Rayos Cósmicos</h2><br>
-            <p>Los muones son partículas elementales producidas por la interacción de rayos cósmicos con la atmósfera. Nuestro detector nos permite "ver" esta lluvia invisible de partículas.</p>
+            <h2>Origen e importancia histórica de la cámara de niebla</h2><br>
+            <p>La cámara de niebla surgió a finales del siglo XIX a partir de los estudios de Charles Thomson Rees Wilson sobre la condensación del vapor en presencia de partículas cargadas, convirtiéndose en un instrumento clave para visualizar fenómenos invisibles. A lo largo del siglo XX desempeñó un papel fundamental en el desarrollo de la física de partículas, al posibilitar descubrimientos como el positrón, el muón y el pión, y aunque hoy ha sido reemplazada por detectores más avanzados, mantiene un destacado valor científico y pedagógico al permitir observar directamente las huellas de la radiación cósmica</p>
             
             <h2>Diseño del Detector</h2>
             <p>Utilizamos fotomultiplicadores de silicio (SiPM) acoplados a centelladores centelladores plásticos. La señal es procesada por una placa Arduino dedicada para el conteo de coincidencias.</p>
