@@ -41,31 +41,42 @@ const articles = {
             <h2>Origen e importancia histórica de la cámara de niebla</h2><br>
             <p>La cámara de niebla surgió a finales del siglo XIX a partir de los estudios de Charles Thomson Rees Wilson sobre la condensación del vapor en presencia de partículas cargadas, convirtiéndose en un instrumento clave para visualizar fenómenos invisibles. A lo largo del siglo XX desempeñó un papel fundamental en el desarrollo de la física de partículas, al posibilitar descubrimientos como el positrón, el muón y el pión, y aunque hoy ha sido reemplazada por detectores más avanzados, mantiene un destacado valor científico y pedagógico al permitir observar directamente las huellas de la radiación cósmica</p>
             
-            <h2>Diseño del Detector</h2>
-            <p>Utilizamos fotomultiplicadores de silicio (SiPM) acoplados a centelladores centelladores plásticos. La señal es procesada por una placa Arduino dedicada para el conteo de coincidencias.</p>
-        `
-    },
-    'acelerador': {
-        title: 'Acelerador Didáctico',
-        category: 'Proyecto Finalizado',
-        author: 'Promoción 2024',
-        date: 'Finalizado en 2024',
-        lead: 'Un ciclotrón de bajo coste diseñado para demostraciones prácticas de la fuerza de Lorentz en laboratorios de educación secundaria.',
-        body: `
-            <h2>Educación y Física</h2>
-            <p>Este proyecto nació con la vocación de acercar la física de aceleradores a las aulas. El dispositivo es capaz de acelerar electrones a energías modestas pero suficientes para curvar su trayectoria visiblemente en un gas a baja presión.</p>
+            <img src="img/camara_antigua.png" alt="Cámara de niebla antigua" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
+            
+            <h2>Diseño y construcción en la UC3M</h2><br>
+            <p>La construcción de la cámara de niebla se llevó a cabo mediante un procedimiento artesanal, prestando especial atención al aislamiento térmico, al cierre hermético y a las condiciones necesarias para la condensación del vapor.</p>
+
+            <p>En primer lugar, se recortó material aislante para preparar una bandeja destinada a alojar el hielo seco, elemento fundamental para generar la baja temperatura requerida. A continuación, se cubrió una placa metálica con autoadhesivo negro con el fin de mejorar el contraste visual de las trayectorias de las partículas. En los bordes se añadió un burlete de goma para asegurar un cierre hermético del sistema.</p>
+
+            <p>En el interior de la pecera se fijó una tira de fieltro en la parte superior. Esta se impregnó con alcohol isopropílico, cuyo vapor, al descender hacia la base muy fría, permitiría posteriormente la formación de la niebla donde se hacen visibles las trazas.</p>
+            <img src="img/echar_alc.png" alt="Cámara de niebla en funcionamiento" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; margin: 20px auto; display: block;">
+
+            <p>Una vez montada la estructura, se manipuló el hielo seco con guantes de protección y se distribuyó cuidadosamente en la bandeja, rodeándolo de corcho para conservar la temperatura. Sobre este lecho se colocó la placa metálica y se cerró la pecera con cuidado, asegurándola mediante libros y pesas en la parte superior. La presión ejercida, junto con la flexibilidad del burlete, permitió sellar completamente la cámara.</p>
+            <img src="img/pesas.png" alt="Cámara de niebla en funcionamiento" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
+
+            <h2>Observación de partículas cósmicas</h2><br>
+            <p>Una vez en completa oscuridad, se aplicó iluminación lateral mediante una linterna de alta intensidad, generando las condiciones óptimas para que la niebla hiciera visibles las trayectorias de las partículas que atravesaban la pecera. En un primer momento no se observó ningún fenómeno, únicamente la cámara fría y en silencio. Durante varios minutos surgió la duda de si el montaje funcionaba correctamente. Sin embargo, tras aproximadamente diez o quince minutos, comenzaron a distinguirse finas líneas blancas que cruzaban brevemente el interior.</p>
+
+            <p>Las trazas observadas corresponden principalmente a muones, partículas que alcanzan la superficie terrestre tras originarse en colisiones de rayos cósmicos con la atmósfera. Algunas marcas aparecen más gruesas y de menor longitud, rasgo propio de partículas alfa, mientras que otras se muestran más delgadas e irregulares, asociadas a la radiación beta. Aunque cada estela es efímera, su presencia evidencia que estas partículas nos atraviesan de manera constante, aun cuando pasan inadvertidas en condiciones normales.</p>
+            <video width="100%" max-width="600px" height="auto" style="max-width: 600px; border-radius: 8px; margin: 20px auto; display: block;" controls muted>
+                <source src="videos/silvia_niebla.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video><br>
+
+            <h2>Conclusiones y agradecimientos</h2><br>
+            <p>Para nosotros, la cámara de niebla no es solo un homenaje a la historia de la física, sino también una herramienta divulgativa que acerca la ciencia a cualquiera con curiosidad. Porque lo más fascinante de este experimento no es su sencillez ni su valor pedagógico, sino la sensación de descubrir que, incluso en un laboratorio universitario, podemos asomarnos a un universo invisible que nos atraviesa continuamente.</p>
+            <p>Queremos expresar nuestro agradecimiento a José Ramón Martín Solís, a José Miguel Reynolds Barredo, a Domingo de la Rosa Muñoz y a Silvia Noemí Santalla Arribas. Los profesores que nos acompañaron en todo el proceso, tanto facilitando los materiales necesarios como ofreciéndonos su apoyo y orientación en los aspectos teóricos y prácticos. También agradecer a la UNED, por darnos la oportunidad de compartir esta experiencia en su blog dedicado a la física, al que podeis acceder en este enlace: <a href="https://blogs.uned.es/hablandodefisicauned/2025/10/13/hacer-visible-lo-invisible-una-camara-de-niebla-en-la-uc3m/" target="_blank" style="color: inherit; text-decoration: underline;">Artículo en el blog de Física de la UNED</a>.</p>
+            <p>En este video publicado en nuestra cuenta de Instagram os resumimos el proceso completo de manera clara y concisa.</p>
+            <div style="display: flex; justify-content: center; margin: 20px 0;">
+                <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/reel/DPDOj3YDkmx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" data-instgrm-version="14" style="background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/reel/DPDOj3YDkmx/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-11.000000, -11.000000)" fill="#000000"><g><path d="M30,11 C-5.228975,11 -11,16.771025 -11,30 C-11,43.228975 -5.228975,49 30,49 C43.228975,49 49,43.228975 49,30 C49,16.771025 43.228975,11 30,11 Z M30,44 C12.67157,44 3,34.32843 3,17 C3,-0.32843 12.67157,-9 30,-9 C47.32843,-9 57,0.32843 57,17 C57,34.32843 47.32843,44 30,44 Z"></path><path d="M30,37 C24.4771525,37 20,32.5228475 20,27 C20,21.4771525 24.4771525,17 30,17 C35.5228475,17 40,21.4771525 40,27 C40,32.5228475 35.5228475,37 30,37 Z M30,32 C33.3137085,32 36,29.3137085 36,26 C36,22.6862915 33.3137085,20 30,20 C26.6862915,20 24,22.6862915 24,26 C24,29.3137085 26.6862915,32 30,32 Z"></path><circle cx="41" cy="20" r="3"></circle></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> Ver esta publicación en Instagram</div></div></a></div></blockquote>
+            </div>
         `
     },
     'robotico': {
-        title: 'Brazo Robótico Hápitco',
+        title: 'Brazo Robótico Háptico',
         category: 'Proyecto Finalizado',
         author: 'Promoción 2023',
         date: 'Finalizado en 2023',
-        lead: 'Interfaz de control remoto con feedback de fuerza (háptico) diseñada para la manipulación segura de materiales peligrosos a distancia.',
-        body: `
-            <h2>Control a Distancia</h2>
-            <p>El sistema permite al operador "sentir" lo que el robot toca, mejorando la precisión en tareas delicadas. Se utilizaron servomotores de alta precisión y sensores de presión distribuidos.</p>
-        `
     },
     'radio': {
         title: 'Radioastronomía Amateur',
@@ -379,12 +390,19 @@ document.addEventListener('DOMContentLoaded', function () {
 
         let contentHtml = '';
         if (article.lead) {
-            contentHtml += `<p class="lead" style="font-size: 1.2rem; margin-bottom: 20px;">${article.lead}</p>`;
+            contentHtml += `<p class="lead" style="font-size: 1.4rem; margin-bottom: 20px;">${article.lead}</p>`;
         }
         contentHtml += article.body;
 
         if (bodyEl) {
             bodyEl.innerHTML = contentHtml;
+            // Aplicar alineación justificada al contenido del artículo
+            bodyEl.style.textAlign = 'justify';
+
+            // Agregar clase específica para artículo de niebla
+            if (articleId === 'niebla') {
+                bodyEl.classList.add('article-niebla');
+            }
 
             // --- CAMBIO AQUÍ: Procesar el post de Instagram ---
             // Esto detecta el post inyectado y lo renderiza visualmente

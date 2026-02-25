@@ -686,3 +686,8 @@ footer {
     margin: 0 auto;    /* Centra el bloque en la pantalla */
     padding: 0 20px;   /* Evita que el texto toque los bordes en móviles */
 }
+
+/* Estilos específicos para el artículo de niebla */
+.article-niebla p {
+    margin-bottom: 25px;
+}
