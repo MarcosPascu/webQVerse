@@ -194,7 +194,7 @@ const articles = {
         date: '6 Febrero 2026', // Pon la fecha exacta si la tienes
         lead: 'Participamos en una jornada inmersiva en uno de los centros de investigación más prestigiosos del CSIC, donde pudimos ver de primera mano el futuro de la nanotecnología y los nuevos materiales.',
         body: `
-            <h2>Explorando la materia a nanoescala</h2>
+            <h2>Explorando la materia a nanoescala</h2><br>
             <p>Durante la visita, fuimos recibidos por investigadores del centro que nos introdujeron a las líneas de investigación actuales: desde ordenadores hechos con luz hasta materiales ferroelectricos para suministrar sensores de manera sostenible.</p>
             <div style="margin: 30px 0; text-align: center;">
                 <h3>Vídeo Resumen de la Visita</h3>
@@ -221,10 +221,10 @@ const articles = {
         date: '23 Enero - 25 Enero 2026',
         lead: 'Una delegación de nuestra asociación participó telemáticamente en uno de los hackathon de computación cuántica más prestigioso del mundo, organizado por el MIT.',
         body: `
-            <h2>El Desafío en Boston</h2>
+            <h2>El Desafío en Boston</h2><br>
             <p>Fuimos seleccionados entre cientos de solicitantes internacionales para competir telematicamente. El reto consistió en 24 horas ininterrumpidas de programación utilizando bases cuánticas de importantes empresas como IonQ o Nvidia.</p>
-            
-            <h2>Nuestra Solución</h2>
+            <br>
+            <h2>Nuestra Solución</h2><br>
             <p>Nuestro equipo trabajó en el desafío propuesto por IonQ. una competición de estrategia tipo Risk sobre una red cuántica. El objetivo era construir una red de entrelazamiento (entanglement) conectando ciudades (nodos) mediante la purificación de pares de Bell ruidosos, gestionando un presupuesto limitado de recursos.</p>
 
             <div class="image-placeholder" style="width: 100%; height: 350px; background-color: #f0f0f0; border-radius: 8px; margin: 30px 0; display: flex; align-items: center; justify-content: center; color: #666;">
