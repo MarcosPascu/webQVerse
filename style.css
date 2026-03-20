@@ -487,64 +487,69 @@ img {
     font-size: 0.9rem;
     color: var(--secondary-color);
 }
-.team-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Esto es lo que pone a los 4 en una fila */
-    gap: 20px; /* Espacio entre ellos */
-}
-/* Team */
-.team-member {
-    text-align: left;        /* Alinea el texto a la izquierda */
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; /* Alinea la foto y el contenido a la izquierda */
+/* =========================================
+   CORRECCIÓN DE ESTILOS PARA LA PÁGINA DE EQUIPO
+   ========================================= */
+
+/* 1. Ajuste fundamental: Definir la cuadrícula (para que salgan en columnas) */
+/* 1. Ajuste de la cuadrícula: De 3 a 4 por fila */
+.grid.team-grid {
+  display: grid;
+  /* Bajamos el mínimo a 220px. Ahora cabrán 4 sin problema en pantallas de ordenador */
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); 
+  gap: 25px; /* Reducimos un pelín el hueco entre ellas para que respiren bien al ser 4 */
+  padding: 40px 0;
 }
 
-.team-avatar {
-    width: 150px;           /* Un poco más grande para que destaque */
-    height: 150px;          /* Debe ser igual al ancho para el círculo */
-    border-radius: 50%;     /* Hace la imagen redonda */
-    object-fit: cover;      /* ¡IMPORTANTE! Recorta la foto para que encaje sin deformarse */
-    display: block;         /* Permite centrarla con margin */
-    margin: 0 auto 20px;    /* Centra horizontalmente y da espacio abajo */
-    border: 4px solid #fff; /* Un borde blanco para que resalte */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra suave profesional */
-    background-color: #f0f0f0; /* Color de fondo por si la imagen tarda en cargar */
+/* 2. Estilo de la tarjeta principal */
+.team-member {
+  background-color: #ffffff;
+  border-radius: 12px; /* Un borde un poco más redondeado queda más moderno */
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08); 
+  overflow: hidden; 
+  padding: 0; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease;
 }
+
+/* 3. FOTO RECTANGULAR GRANDE (Estilo Retrato) */
+.team-avatar {
+  width: 100%; 
+  height: 320px; /* Aumentamos la altura para forzar ese rectángulo vertical pro */
+  border-radius: 0; 
+  object-fit: cover; /* MAGIA: Esto recorta la foto sobrante sin deformar la cara de la persona */
+  display: block;
+}
+
+/* 4. AJUSTE DE TEXTO (Lo que hacía que se viera fatal en tu imagen) */
+/* Añadimos padding explícito a los textos para que no toquen el borde */
 
 .team-member h3 {
-    font-size: 1.2rem;
-    margin-bottom: 5px;
+  padding: 0 20px; /* Padding lateral generoso */
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #1a1a1a;
+  font-weight: 700;
+  /* Forzamos que el nombre no se rompa en dos líneas */
+  white-space: nowrap; 
 }
 
 .team-member .role {
-    color: var(--accent-color);
-    font-weight: 600;
-    font-size: 0.9rem;
-    margin-bottom: 10px;
+  color: #00bcd4; /* El color azul turquesa de tus botones, más vibrante */
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding: 0 20px; /* Padding lateral generoso */
 }
 
 .team-member .bio {
-    font-size: 0.9rem;
-    color: var(--secondary-color);
-}
-
-/* Partners */
-.partners-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
-    align-items: center;
-    opacity: 0.7;
-}
-
-.partner-logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #ccc;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+  font-size: 0.9rem; /* Letra un poco más pequeña y fina */
+  line-height: 1.6;
+  padding: 0 25px 25px 25px; /* Padding generoso alrededor de la bio */
+  color: #555;
+  font-weight: 300;
 }
 
 /* Footer */

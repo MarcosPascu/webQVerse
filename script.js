@@ -1,21 +1,21 @@
 const articles = {
     // Proyectos
-    'coheteria': {
-        title: 'Cohetería Experimental: Misión APES-1',
-        category: 'Proyecto Activo',
-        author: 'Equipo de Propulsión',
-        date: 'Actualmente en desarrollo',
-        lead: 'Nuestro equipo diseña y construye cohetes sonda con el objetivo de alcanzar los 3km de apogeo, integrando sistemas de recuperación electrónica y telemetría en tiempo real.',
-        body: `
-            <h2>Objetivos de la Misión</h2>
-            <p>El proyecto APES-1 busca validar nuestros sistemas de aviónica y recuperación en condiciones de vuelo real. El cohete, fabricado con materiales compuestos, está diseñado para soportar las altas aceleraciones del despegue.</p>
-            
-            <h2>Desafíos Técnicos</h2>
-            <p>Uno de los mayores retos ha sido el diseño de la tobera para optimizar el empuje del motor de combustible sólido. Utilizamos simulaciones CFD para perfeccionar la geometría antes de la manufactura.</p>
-            
-            <h3>Sistemas Electrónicos</h3>
-            <p>La aviónica a bordo registra datos de altitud, presión y aceleración, transmitiéndolos a tierra en tiempo real mediante módulos LoRa.</p>
-        `
+   'quantumschool': {
+    title: 'Quantum Computing School',
+    category: 'Formación Académica',
+    author: 'División de Computación Avanzada',
+    date: 'En curso',
+    lead: 'Programa especializado en formación en computación cuántica utilizando Qiskit, con el respaldo de los currículos oficiales de IBM y Quantum Rings para dominar los algoritmos del futuro.',
+    body: `
+        <h2>Ruta de Aprendizaje</h2>
+        <p>Nuestra formación se centra en el uso de Qiskit, el framework de código abierto más avanzado, permitiendo a los estudiantes programar en computadores cuánticos reales de IBM y simular circuitos complejos.</p>
+        
+        <h2>Certificaciones y Currículo</h2>
+        <p>Integramos los estándares de la industria mediante los cursos de IBM Quantum y la plataforma Quantum Rings, cubriendo desde los fundamentos del álgebra lineal hasta algoritmos avanzados como VQE y QAOA.</p>
+        
+        <h3>Herramientas y Entornos</h3>
+        <p>Los estudiantes desarrollan habilidades prácticas en la creación de circuitos cuánticos, manipulación de qubits y mitigación de errores en entornos de computación en la nube y simuladores locales.</p>
+    `
     },
     'fluidos': {
         title: 'Simulación de Fluidos Computacional',
@@ -169,14 +169,14 @@ const articles = {
     // Eventos
     // NUEVO EVENTO ILUNION
   'ilunion': { 
-        title: 'Moeve Innovation Challenge 2026',
+        title: 'Ilunion University Challenge 2026',
         category: 'Competición',
         author: 'Hunger 4 Innovation',
-        date: '12-13 de Marzo, 2026',
-        lead: 'Participaremos en el nuevo concurso de Hunger 4 Innovation, ahora con Moeve. Un reto de innovación abierta para resolver problemas reales.',
+        date: '20-21 de abril, 2026',
+        lead: 'Participaremos de nuevo concurso de Hunger 4 Innovation. Un reto de innovación abierta para resolver problemas reales.',
         body: `
             <h2>¿En qué consiste?</h2>
-            <p>El Moeve Innovation Challenge es una competición donde equipos multidisciplinares resuelven retos propuestos por empresas reales. Este año colaboramos con <strong>Moeve</strong>.</p>
+            <p>El Ilunion University Challenge es una competición donde equipos multidisciplinares resuelven retos propuestos por empresas reales. Este año colaboramos con <strong>Moeve</strong>.</p>
             
             <div style="display: flex; justify-content: center; margin: 30px 0;">
                 <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DUnS-MygCyU/?utm_source=ig_web_copy_link" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -184,12 +184,12 @@ const articles = {
             </div>
 
             <h2>Detalles del evento</h2>
-            <p>El evento tendrá lugar en Patio Campus. Durante dos días, los equipos trabajarán en soluciones innovadoras.</p>
+            <p>El evento tendrá lugar la Torre Ilunion. Durante dos días, los equipos trabajarán en soluciones innovadoras.</p>
             <br>
             <h3>Horario</h3>
             <ul>
-                <li><strong>12 Marzo:</strong> Presentación de retos e inicio de la solución (10:00-19:30).</li>
-                <li><strong>13 Marzo:</strong> Desarrollo de soluciones y presentación final ante el jurado. (8:00-13:00)</li>
+                <li><strong>20 Abril:</strong> Presentación de retos e inicio de la solución (10:00-19:30).</li>
+                <li><strong>21 Abril:</strong> Desarrollo de soluciones y presentación final ante el jurado. (8:00-13:00)</li>
             </ul>
 
             <p>¡No pierdas la oportunidad de participar en nuestro equipo y demostrar tu talento!</p>
