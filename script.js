@@ -167,6 +167,37 @@ const articles = {
     },
 
     // Eventos
+    'iquhack': {
+        title: 'MIT iQuHACK 2026: Hackathon de Computación Cuántica',
+        category: 'Competición Internacional',
+        author: 'Equipo Quantum Verse',
+        date: '23 Enero - 25 Enero 2026',
+        lead: 'Una delegación de nuestra asociación participó telemáticamente en uno de los hackathon de computación cuántica más prestigioso del mundo, organizado por el MIT.',
+        body: `
+            <h2 style="margin-top: 40px; margin-bottom: 25px;">El Desafío en Boston</h2>
+            <p>Fuimos seleccionados entre cientos de solicitantes internacionales para competir telematicamente. El reto consistió en 24 horas ininterrumpidas de programación utilizando bases cuánticas de importantes empresas como IonQ o Nvidia.</p>
+            
+            <h2 style="margin-top: 40px; margin-bottom: 25px;">Nuestra Solución</h2>
+            <p>Nuestro equipo trabajó en el desafío propuesto por IonQ. una competición de estrategia tipo Risk sobre una red cuántica. El objetivo era construir una red de entrelazamiento (entanglement) conectando ciudades (nodos) mediante la purificación de pares de Bell ruidosos, gestionando un presupuesto limitado de recursos.</p>
+
+            <div style="display: flex; gap: 20px; margin: 40px 0; flex-wrap: wrap; justify-content: center;">
+                
+                <div style="flex: 1; min-width: 300px; text-align: center;">
+                    <img src="img/iquhack-foto1.png" alt="Resultado del desafío IonQ - Gráfico 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">Nodos capturados.</p>
+                </div>
+
+                <div style="flex: 1; min-width: 300px; text-align: center;">
+                     <img src="img/iquhack-foto2.png" alt="Resultado del desafío IonQ - Gráfico 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">Circuito de purificación de pares de Bell.</p>
+                </div>
+
+            </div>
+
+            <h2 style="margin-top: 40px; margin-bottom: 25px;">Networking Internacional</h2>
+            <p>Más allá de la competición, fue una oportunidad única para conectar con físicos e ingenieros de todo el mundo y conocer de cerca el ecosistema de empresas cuánticas a nivel mundial.</p>
+        `
+    },
     // NUEVO EVENTO ILUNION
   'ilunion': { 
         title: 'Ilunion University Challenge 2026',
@@ -224,28 +255,7 @@ const articles = {
             <p>Una experiencia inspiradora que nos permitió conectar los conceptos teóricos de la carrera con la investigación real de vanguardia.</p>
         `
     },
-    // MIT IQUHACK 2026
-    'iquhack': {
-        title: 'MIT iQuHACK 2026: Hackathon de Computación Cuántica',
-        category: 'Competición Internacional',
-        author: 'Equipo Quantum Verse',
-        date: '23 Enero - 25 Enero 2026',
-        lead: 'Una delegación de nuestra asociación participó telemáticamente en uno de los hackathon de computación cuántica más prestigioso del mundo, organizado por el MIT.',
-        body: `
-            <h2>El Desafío en Boston</h2><br>
-            <p>Fuimos seleccionados entre cientos de solicitantes internacionales para competir telematicamente. El reto consistió en 24 horas ininterrumpidas de programación utilizando bases cuánticas de importantes empresas como IonQ o Nvidia.</p>
-            <br>
-            <h2>Nuestra Solución</h2><br>
-            <p>Nuestro equipo trabajó en el desafío propuesto por IonQ. una competición de estrategia tipo Risk sobre una red cuántica. El objetivo era construir una red de entrelazamiento (entanglement) conectando ciudades (nodos) mediante la purificación de pares de Bell ruidosos, gestionando un presupuesto limitado de recursos.</p>
-
-            <div class="image-placeholder" style="width: 100%; height: 350px; background-color: #f0f0f0; border-radius: 8px; margin: 30px 0; display: flex; align-items: center; justify-content: center; color: #666;">
-                Foto de resultados
-            </div>
-
-            <h2>Networking Internacional</h2>
-            <p>Más allá de la competición, fue una oportunidad única para conectar con físicos e ingenieros de todo el mundo y conocer de cerca el ecosistema de empresas cuánticas a nivel mundial.</p>
-        `
-    },
+    
     // GANADORES ILUNION 2025
     'ilunion-win': {
         title: '¡Ganadores del Ilunion University Game 2025!',
