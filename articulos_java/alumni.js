@@ -46,10 +46,15 @@ const alumniArticles = {
 
             <br><h2>Vídeo resumen de la visita</h2><br>
             <p>Os dejamos a continuación un vídeo con los momentos más destacados de la jornada:</p><br>
-            <video width="100%" height="auto" style="max-width: 700px; border-radius: 8px; margin: 20px auto; display: block;" controls>
-                <source src="videos/Vide_Project.mp4" type="video/mp4">
-                Tu navegador no soporta la etiqueta de video.
-            </video>
+           <div style="max-width: 420px; margin: 20px auto;">
+                <iframe 
+                    src="https://drive.google.com/file/d/1-W5dOun23VSb4pYAfUCUMqN7_YUT7qdC/preview"
+                    width="100%"
+                    height="740"
+                    style="border:none; border-radius:12px; display:block;"
+                    allow="autoplay">
+                </iframe>
+            </div>
 
             <br><h2>Reflexiones finales</h2><br>
             <p>Salimos del ICMM con la sensación de haber vislumbrado algo importante: que la distancia entre lo que estudiamos en clase y la investigación de frontera es mucho menor de lo que parece. Los conceptos de mecánica cuántica, electromagnetismo o física del estado sólido que a veces se antojan abstractos en la pizarra son exactamente las herramientas que los investigadores del centro utilizan cada día para diseñar experimentos, interpretar medidas y proponer nuevas hipótesis.</p><br>
