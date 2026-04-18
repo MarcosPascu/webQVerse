@@ -72,6 +72,48 @@ const articles = {
             </div>
         `
     },
+    
+    'levitador': {
+    title: 'Levitador Electrostático',
+    category: 'Proyecto Finalizado',
+    author: 'Grupo de Ingeniería Física',
+    date: 'Junio 2025',
+    lead: 'Desafiando la gravedad con electricidad: construcción de un levitador electrostático en colaboración con el Departamento de Física de la UC3M.',
+    body: `
+        <h2>¿Qué es un levitador electrostático?</h2><br>
+        <p>Un levitador electrostático es un dispositivo capaz de mantener un objeto en suspensión en el aire utilizando únicamente fuerzas eléctricas. A diferencia de la levitación magnética, este fenómeno aprovecha la interacción entre cargas eléctricas para contrarrestar la gravedad, convirtiendo un principio fundamental de la física en un experimento visualmente fascinante.</p>
+        <p>Aunque el principio puede parecer sencillo, su implementación requiere un control preciso del campo eléctrico generado, lo que lo convierte en un reto tanto teórico como práctico. Este tipo de dispositivos tiene aplicaciones en investigación de materiales, microgravedad simulada y espectroscopía de partículas.</p>
+
+        <img src="img/levitador_portada.png" alt="Levitador electrostático" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
+
+        <h2>Proceso de montaje</h2><br>
+        <p>El proyecto se llevó a cabo en las instalaciones del Departamento de Física de la UC3M durante el mes de junio de 2025. El montaje comenzó con el diseño y construcción de los electrodos, piezas clave para generar el campo eléctrico necesario. Se prestó especial atención a la geometría de los mismos, ya que esta determina directamente la distribución del campo y, por tanto, la estabilidad de la levitación.</p>
+        <p>A continuación se realizó el conexionado eléctrico y la configuración de la fuente de alta tensión, siempre bajo estrictas medidas de seguridad. Una vez montado el sistema, se procedió a las pruebas iniciales con distintos objetos de pequeña masa y baja densidad, ajustando progresivamente los parámetros hasta lograr una levitación estable y reproducible.</p>
+
+        <img src="img/levitador_montaje1.png" alt="Proceso de montaje del levitador" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
+
+        <h2>El montaje en imágenes y vídeo</h2><br>
+        <p>A continuación podéis ver un resumen en vídeo del proceso de construcción y puesta en marcha del levitador electrostático:</p>
+
+        <video width="100%" height="auto" style="max-width: 600px; border-radius: 8px; margin: 20px auto; display: block;" controls muted>
+            <source src="videos/levitador_montaje.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video><br>
+
+        <h2>Resultado final</h2><br>
+        <p>Tras varios ajustes, el levitador logró mantener objetos en suspensión de forma estable, demostrando de manera directa y visual los principios de la electrostática. El resultado fue especialmente llamativo: ver un objeto flotando en el aire gracias únicamente a fuerzas eléctricas genera el mismo impacto que la primera vez que se ven las trazas en una cámara de niebla. La física invisible, hecha visible.</p>
+
+        <video width="100%" height="auto" style="max-width: 600px; border-radius: 8px; margin: 20px auto; display: block;" controls muted>
+            <source src="videos/levitador_resultado.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+        </video><br>
+
+        <h2>Conclusiones y agradecimientos</h2><br>
+        <p>Este proyecto nos ha permitido explorar de forma práctica uno de los fenómenos más elegantes de la física clásica: la acción a distancia de las fuerzas eléctricas. Más allá del resultado experimental, el proceso de montaje y ajuste nos ha enseñado la importancia del rigor y la paciencia en el trabajo de laboratorio.</p>
+        <p>Queremos expresar nuestro más sincero agradecimiento al Departamento de Física de la UC3M por brindarnos las instalaciones y los medios necesarios para llevar a cabo este proyecto. En especial, queremos dar las gracias al profesor José Miguel Reynolds, quien se puso en contacto con nosotros y fue el impulsor de esta colaboración, acompañándonos en todo momento con su orientación y entusiasmo.</p>
+    `
+    },
+
     'robotico': {
         title: 'Brazo Robótico Háptico',
         category: 'Proyecto Finalizado',
