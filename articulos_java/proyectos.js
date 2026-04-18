@@ -54,7 +54,7 @@ const proyectosArticles = {
             <h2>Origen e importancia histórica de la cámara de niebla</h2><br>
             <p>La cámara de niebla surgió a finales del siglo XIX a partir de los estudios de Charles Thomson Rees Wilson sobre la condensación del vapor en presencia de partículas cargadas, convirtiéndose en un instrumento clave para visualizar fenómenos invisibles. A lo largo del siglo XX desempeñó un papel fundamental en el desarrollo de la física de partículas, al posibilitar descubrimientos como el positrón, el muón y el pión, y aunque hoy ha sido reemplazada por detectores más avanzados, mantiene un destacado valor científico y pedagógico al permitir observar directamente las huellas de la radiación cósmica</p>
             
-            <img src="img/camara_antigua.png" alt="Cámara de niebla antigua" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
+            <img src="img/proyectos/niebla/camara_antigua.png" alt="Cámara de niebla antigua" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
             
             <h2>Diseño y construcción en la UC3M</h2><br>
             <p>La construcción de la cámara de niebla se llevó a cabo mediante un procedimiento artesanal, prestando especial atención al aislamiento térmico, al cierre hermético y a las condiciones necesarias para la condensación del vapor.</p>
@@ -62,10 +62,10 @@ const proyectosArticles = {
             <p>En primer lugar, se recortó material aislante para preparar una bandeja destinada a alojar el hielo seco, elemento fundamental para generar la baja temperatura requerida. A continuación, se cubrió una placa metálica con autoadhesivo negro con el fin de mejorar el contraste visual de las trayectorias de las partículas. En los bordes se añadió un burlete de goma para asegurar un cierre hermético del sistema.</p>
 
             <p>En el interior de la pecera se fijó una tira de fieltro en la parte superior. Esta se impregnó con alcohol isopropílico, cuyo vapor, al descender hacia la base muy fría, permitiría posteriormente la formación de la niebla donde se hacen visibles las trazas.</p>
-            <img src="img/echar_alc.png" alt="Cámara de niebla en funcionamiento" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; margin: 20px auto; display: block;">
+            <img src="img/proyectos/niebla/echar_alc.png" alt="Cámara de niebla en funcionamiento" style="width: 100%; max-width: 400px; height: auto; border-radius: 8px; margin: 20px auto; display: block;">
 
             <p>Una vez montada la estructura, se manipuló el hielo seco con guantes de protección y se distribuyó cuidadosamente en la bandeja, rodeándolo de corcho para conservar la temperatura. Sobre este lecho se colocó la placa metálica y se cerró la pecera con cuidado, asegurándola mediante libros y pesas en la parte superior. La presión ejercida, junto con la flexibilidad del burlete, permitió sellar completamente la cámara.</p>
-            <img src="img/pesas.png" alt="Cámara de niebla en funcionamiento" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
+            <img src="img/proyectos/niebla/pesas.png" alt="Cámara de niebla en funcionamiento" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
 
             <h2>Observación de partículas cósmicas</h2><br>
             <p>Una vez en completa oscuridad, se aplicó iluminación lateral mediante una linterna de alta intensidad, generando las condiciones óptimas para que la niebla hiciera visibles las trayectorias de las partículas que atravesaban la pecera. En un primer momento no se observó ningún fenómeno, únicamente la cámara fría y en silencio. Durante varios minutos surgió la duda de si el montaje funcionaba correctamente. Sin embargo, tras aproximadamente diez o quince minutos, comenzaron a distinguirse finas líneas blancas que cruzaban brevemente el interior.</p>
