@@ -126,23 +126,4 @@ const proyectosArticles = {
         `
     },
 
-    'robotico': {
-        title: 'Brazo Robótico Háptico',
-        category: 'Proyecto Finalizado',
-        author: 'Promoción 2023',
-        date: 'Finalizado en 2023',
-    },
-
-    'radio': {
-        title: 'Radioastronomía Amateur',
-        category: 'Iniciativa Estudiantil',
-        author: 'Grupo de Óptica y Señales',
-        date: 'En curso',
-        lead: 'Construcción de una antena para la recepción de la línea de hidrógeno de 21cm, permitiendo mapear la estructura de nuestra galaxia desde el campus.',
-        body: `
-            <h2>Escuchando el Universo</h2><br>
-            <p>Utilizando receptores SDR (Software Defined Radio) de bajo coste y una antena de diseño casero, hemos logrado detectar el paso de los brazos espirales de la Vía Láctea.</p><br>
-        `
-    },
-
 };
