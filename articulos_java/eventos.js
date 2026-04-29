@@ -15,11 +15,11 @@ const eventosArticles = {
 
             <div style="display: flex; gap: 20px; margin: 40px 0; flex-wrap: wrap; justify-content: center;">
                 <div style="flex: 1; min-width: 300px; text-align: center;">
-                    <img src="img/iquhack-foto1.png" alt="Resultado del desafío IonQ - Gráfico 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <img src="img/eventos/iquhack/iquhack-foto1.png" alt="Resultado del desafío IonQ - Gráfico 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                     <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">Nodos capturados.</p>
                 </div>
                 <div style="flex: 1; min-width: 300px; text-align: center;">
-                    <img src="img/iquhack-foto2.png" alt="Resultado del desafío IonQ - Gráfico 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <img src="img/eventos/iquhack/iquhack-foto2.png" alt="Resultado del desafío IonQ - Gráfico 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                     <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">Circuito de purificación de pares de Bell.</p>
                 </div>
             </div>
