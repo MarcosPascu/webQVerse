@@ -81,12 +81,12 @@ const eventosArticles = {
             <br><h2>Nuestra Solución</h2><br>
             <p>Desarrollamos un sistema integral que combina análisis de datos en tiempo real y rediseño de procesos para optimizar el paso por los arcos de seguridad, reduciendo tiempos de espera y mejorando la experiencia del viajero.</p><br>
 
-            <img src="img/Ilunion-presentacion.jpeg" class="image-placeholder"><br>
+            <img src="img/eventos/ilunion_25/Ilunion-presentacion.jpeg" class="image-placeholder"><br>
 
             <br><h2>La Gran Final</h2><br>
             <p>Tras una larga noche de trabajo, defendimos el proyecto directamente ante la junta directiva de Ilunion. La viabilidad y el impacto innovador de la propuesta nos valieron el primer puesto del certamen.</p><br>
 
-            <img src="img/Ilunion_win.jpeg" class="image-placeholder">
+            <img src="img/eventos/ilunion_25/Ilunion_win.jpeg" class="image-placeholder">
         `
     },
 
