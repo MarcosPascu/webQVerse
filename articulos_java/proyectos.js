@@ -5,27 +5,31 @@ const proyectosArticles = {
         category: 'Formación Académica',
         author: 'División de Computación Avanzada',
         date: 'En curso',
-        lead: 'Programa especializado en formación en computación cuántica utilizando Qiskit, con el respaldo de los currículos oficiales de IBM y Quantum Rings para dominar los algoritmos del futuro.',
+        lead: 'Aprende a programar ordenadores cuánticos reales con Qiskit. Un programa de formación que impulsamos desde la asociación siguiendo los currículos oficiales de IBM y Quantum Rings.',
         body: `
-            <h2>¿Qué es la Quantum Computing School?</h2><br>
-            <p>La Quantum Computing School es un programa formativo interno impulsado por nuestra asociación, orientado a proporcionar una formación sólida y progresiva en computación cuántica. En un campo que avanza a una velocidad vertiginosa, contar con una hoja de ruta clara y estructurada marca la diferencia entre quedarse en la superficie o desarrollar un dominio real de las herramientas y conceptos que definen esta tecnología.</p><br>
-            <p>El programa está diseñado para estudiantes de ingeniería física y carreras afines que quieran dar sus primeros pasos en el mundo cuántico, o para quienes ya tienen una base y buscan consolidarla y ampliarla con una formación más rigurosa y aplicada.</p><br>
+            <h2>¿Qué es 'Quantum Computing School'?</h2><br>
+            <p>Quantum Computing School es un programa de formación en computación cuántica que impulsamos desde la asociación. En un campo que avanza tan rápido, contar con una ruta de aprendizaje clara y estructurada hace la diferencia entre quedarse en la superficie o desarrollar un dominio real de las herramientas y conceptos que definen esta tecnología.</p><br>
+            <p>El programa está diseñado para estudiantes de ingeniería física y carreras afines que quieran adentrarse en el mundo cuántico, tanto si es su primera vez como si ya tienen una base y buscan ampliarla con una formación más rigurosa.</p><br>
+            
+            <img src="img/proyectos/quantum/IconoVectorCuantico.jpg.webp" alt="Circuito cuántico" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
 
-            <br><h2>Ruta de aprendizaje</h2><br>
-            <p>La formación se articula en torno a Qiskit, el framework de código abierto desarrollado por IBM y considerado hoy el estándar de facto en la industria para la programación de ordenadores cuánticos. A través de él, los participantes aprenden a construir circuitos cuánticos, manipular qubits, implementar puertas lógicas cuánticas y ejecutar algoritmos tanto en simuladores locales como en hardware cuántico real a través de la nube de IBM.</p><br>
-            <p>La ruta comienza desde los fundamentos matemáticos necesarios, incluyendo álgebra lineal, números complejos y notación de Dirac, y avanza progresivamente hacia los algoritmos más relevantes del campo: desde el algoritmo de Deutsch-Jozsa y la transformada cuántica de Fourier, hasta algoritmos de mayor complejidad como el de Grover para búsqueda o el de Shor para factorización, con especial atención a su impacto potencial en criptografía.</p><br>
+            <br><h2>Estructura del programa</h2><br>
+            <p>La formación se estructura en torno a Qiskit, el framework de código abierto desarrollado por IBM que se ha convertido en el estándar de la industria. A través de él se aprende a construir circuitos cuánticos, manipular qubits, implementar puertas lógicas cuánticas y ejecutar algoritmos tanto en simuladores como en hardware cuántico real mediante la nube de IBM.</p><br>
+            <p>El programa comienza desde los fundamentos matemáticos como álgebra lineal, números complejos y notación de Dirac, y avanza hacia los algoritmos más relevantes del campo: el algoritmo de Deutsch-Jozsa, la transformada cuántica de Fourier, el algoritmo de Grover para búsqueda o el de Shor para factorización, prestando especial atención a su impacto en criptografía.</p><br>
 
             <br><h2>Certificaciones y currículo oficial</h2><br>
-            <p>Uno de los pilares del programa es su alineación con los currículos oficiales de IBM Quantum y la plataforma Quantum Rings. Esto garantiza que los conocimientos adquiridos son reconocibles y valorables en el mercado laboral, y que los participantes pueden optar a certificaciones que acrediten su formación ante empleadores y programas de posgrado.</p><br>
-            <p>El currículo cubre desde los fundamentos del álgebra lineal aplicada a la mecánica cuántica hasta algoritmos avanzados como VQE (Variational Quantum Eigensolver) y QAOA (Quantum Approximate Optimization Algorithm), ambos considerados entre los más prometedores para aplicaciones a corto plazo en química cuántica y optimización combinatoria respectivamente.</p><br>
+            <p>Uno de los aspectos clave del programa es su alineación con los currículos oficiales de IBM Quantum y Quantum Rings. Esto garantiza que los conocimientos adquiridos sean reconocibles en el mercado laboral y que los participantes puedan optar a certificaciones oficiales que acrediten su formación.</p><br>
+            <p>El currículo cubre desde los fundamentos del álgebra lineal aplicada a la mecánica cuántica hasta algoritmos avanzados como VQE (Variational Quantum Eigensolver) y QAOA (Quantum Approximate Optimization Algorithm), considerados entre los más prometedores para aplicaciones en química cuántica y optimización combinatoria.</p><br>
 
-            <br><h2>Herramientas y entornos de trabajo</h2><br>
-            <p>A lo largo del programa los participantes desarrollan habilidades prácticas en la creación y simulación de circuitos cuánticos, la manipulación de estados de qubits y la implementación de técnicas de mitigación de errores, un aspecto crítico dado que los ordenadores cuánticos actuales operan en el régimen NISQ (Noisy Intermediate-Scale Quantum), donde el ruido y la decoherencia son limitaciones reales con las que hay que saber trabajar.</p><br>
-            <p>El entorno de trabajo combina la ejecución local en simuladores con el acceso a procesadores cuánticos reales a través de IBM Quantum Network, lo que permite a los participantes experimentar de primera mano las diferencias entre la simulación ideal y el comportamiento real del hardware. Esta exposición temprana al hardware real es uno de los aspectos más valorados por quienes han pasado por el programa.</p><br>
+            <br><h2>Trabajo con hardware real</h2><br>
+            <p>A lo largo del programa se desarrollan habilidades prácticas en la creación y simulación de circuitos cuánticos, la manipulación de estados de qubits y la implementación de técnicas de mitigación de errores. Este último aspecto es especialmente relevante dado que los ordenadores cuánticos actuales operan en el régimen NISQ (Noisy Intermediate-Scale Quantum), donde el ruido y la decoherencia son limitaciones reales.</p><br>
+            <p>El entorno de trabajo combina la ejecución local en simuladores con el acceso a procesadores cuánticos reales mediante IBM Quantum Network. Esta exposición al hardware real permite experimentar de primera mano las diferencias entre la simulación ideal y el comportamiento real de los sistemas cuánticos.</p><br>
+            
+            <img src="img/proyectos/quantum/IBMQChip.webp" alt="Procesador cuántico de IBM" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
 
             <br><h2>¿A quién va dirigido?</h2><br>
-            <p>El programa está abierto a todos los miembros de la asociación, independientemente de su nivel de partida. Se organizan grupos según el nivel de experiencia previa, de modo que tanto quienes se acercan por primera vez a la computación cuántica como quienes ya tienen nociones previas pueden avanzar a un ritmo adecuado sin que nadie se quede atrás ni nadie se aburra.</p><br>
-            <p>Si te interesa unirte o quieres más información sobre el próximo ciclo formativo, no dudes en contactarnos a través de nuestros canales habituales. La computación cuántica no es el futuro: es el presente, y este es el mejor momento para empezar.</p><br>
+            <p>El programa está abierto a todos los miembros de la asociación, independientemente de su nivel previo. Se organizan grupos según la experiencia, para que tanto quienes se acercan por primera vez a la computación cuántica como quienes ya tienen nociones previas puedan avanzar a un ritmo adecuado.</p><br>
+            <p>Si te interesa participar o quieres más información sobre el próximo ciclo, contacta con nosotros a través de nuestros canales habituales. La computación cuántica ya no es el futuro, es el presente.</p><br>
         `
     },
 
