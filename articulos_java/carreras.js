@@ -35,20 +35,44 @@ const carrerasArticles = {
         date: 'Mayo 2026',
         lead: 'La transición energética demanda perfiles capaces de entender la física fundamental detrás de las nuevas tecnologías de generación, almacenamiento y distribución de energía.',
         body: `
-            <h2>El contexto: una transición que no puede esperar</h2><br>
+            <h2>De la teoría a la industria</h2><br>
             <p>El sector energético está atravesando la transformación más profunda de su historia. La descarbonización de la economía, impulsada por los acuerdos climáticos internacionales y por la creciente competitividad de las energías renovables, está generando una demanda masiva de ingenieros capaces de diseñar, optimizar y escalar las tecnologías del futuro. Y en el centro de muchas de estas tecnologías hay física: de plasmas, de semiconductores, de materiales, de fluidos. El ingeniero físico llega a este sector con una formación que, quizás más que ninguna otra, cubre ese espectro de forma integrada.</p><br>
 
-            <br><h2>Fusión nuclear: la gran apuesta a largo plazo</h2><br>
-            <p>La fusión nuclear es el ejemplo más paradigmático de un campo donde la física y la ingeniería son inseparables. Proyectos como ITER en Francia, el mayor tokamak del mundo actualmente en construcción, o las startups privadas que han proliferado en los últimos años como Commonwealth Fusion Systems, TAE Technologies o Helion, necesitan ingenieros que entiendan la física de plasmas, el confinamiento magnético, la resistencia de materiales a flujos de neutrones de alta energía y los sistemas de diagnóstico que permiten monitorizar el plasma en tiempo real.</p><br>
-            <p>La vía académica hacia este campo pasa habitualmente por un máster o doctorado en física de plasmas, pero el grado en ingeniería física proporciona exactamente la base necesaria para acceder a esos programas desde una posición sólida. En España, el CIEMAT es el centro de referencia en esta área.</p><br>
+            <br><h2>Fusión nuclear: el gran reto tecnológico a largo plazo</h2><br>
+            <p>La fusión nuclear es uno de los desafíos mas complejos que tenemos por delante, donde la física y la ingeniería se vuelven inseparables y el perfil de ingeniero físico resulta crucial. Proyectos como ITER en Francia, el mayor tokamak del mundo actualmente en construcción, o las startups privadas que han proliferado en los últimos años como Commonwealth Fusion Systems, TAE Technologies o Helion, necesitan ingenieros que entiendan la física de plasmas, el confinamiento magnético, la resistencia de materiales a flujos de neutrones de alta energía y los sistemas de diagnóstico que permiten monitorizar el plasma en tiempo real.</p><br>
+            <div style="margin-bottom: 25px; text-align: center;">
+                <img src="img/iter-tokamak.jpg" 
+                     alt="Interior de la cámara de vacío del tokamak de ITER. © ITER Organization." 
+                     style="width: 100%; border-radius: 8px;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                    Imagen: <a href="https://www.iter.org/gallery/images" target="_blank" style="color: #337ab7;">Organización ITER</a>. © ITER Organization.
+                </p>
+            </div>
+            <p>La vía académica hacia este campo pasa habitualmente por un máster o doctorado en física de plasmas y fusion nuclear, programas donde los graduados en ingeniería física pueden acceder gracias a la base cientifica y tecnológica adquirida durante el grado, lo que permite afrontar la complejidad técnica de estos sistemas. En España, el CIEMAT se consolida como el principal centro de referencia para quienes deciden seguir esta trayectoria profesional </p><br>
 
-            <br><h2>Energía solar fotovoltaica: donde la física del estado sólido se hace industria</h2><br>
-            <p>La energía solar es hoy la fuente de electricidad más barata de la historia. Sin embargo, el margen de mejora sigue siendo enorme: las células fotovoltaicas comerciales más eficientes operan aún muy por debajo del límite teórico de Shockley-Queisser. Avanzar en este frente requiere ingenieros que comprendan los mecanismos de absorción de fotones, la recombinación de portadores de carga, las heterouniones de materiales y los procesos de nanofabricación.</p><br>
-            <p>Además del hardware, la integración masiva de solar en la red eléctrica plantea retos enormes de gestión y predicción que se abordan con herramientas de simulación computacional, modelado estadístico y aprendizaje automático: áreas donde el físico también tiene mucho que decir.</p><br>
+            <br><h2>Energía solar: innovación y materiales avanzados</h2><br>
+            <div style="margin-bottom: 25px; text-align: center;">
+                <img src="img/solar-sevilla.jpg" 
+                     alt="Planta termosolar Gemasolar en Fuentes de Andalucía, Sevilla, con tecnología de receptor central y almacenamiento." 
+                     style="width: 100%; border-radius: 8px;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                    Imagen: <a href="https://commons.wikimedia.org/wiki/File:Gemasolar_Thermosolar_Plant_3.jpg" target="_blank" style="color: #337ab7;">Gemasolar Thermosolar Plant</a> por Kallerna, bajo licencia <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank" style="color: #337ab7;">CC BY-SA 4.0</a>.
+                </p>
+            </div>
+            <p>Aunque la energía solar ya se ha consolidado como la fuente de electricidad más barata, la tecnología actual basada en el silicio está llegando a sus límites teóricos. El próximo gran salto de la industria pasa por desarrollar alternativas mucho más eficientes. En este contexto, el ingeniero físico resulta una pieza clave para investigar materiales avanzados, diseñar nuevas arquitecturas de celdas fotovoltaicas y poder predecir la generación y optimizar la distribución de esta tecnología, trabajando justo en la frontera entre el descubrimiento científico y la viabilidad industrial.</p><br>
+            <p>Es en este terreno de alta complejidad matemática donde la capacidad analítica y computacional del perfil físico aporta un valor diferencial muy demandado por el sector.</p><br>
 
-            <br><h2>Almacenamiento de energía: el cuello de botella de la transición</h2><br>
-            <p>El gran problema de las renovables no es generarlas, sino almacenarlas. Las baterías de ión litio han revolucionado el sector del transporte eléctrico, pero su densidad de energía, su coste y su impacto medioambiental siguen siendo limitaciones importantes. La siguiente generación de tecnologías de almacenamiento, baterías de estado sólido, de sodio-ion, de flujo redox o el almacenamiento en forma de hidrógeno verde, requiere investigación a nivel de materiales y de física fundamental.</p><br>
-            <p>Empresas como Northvolt, QuantumScape o Factorial Energy, junto con los departamentos de I+D de grandes fabricantes de automóviles, buscan perfiles con conocimientos profundos en electroquímica, física de materiales y caracterización experimental. Es un área donde la industria y la academia están muy próximas, y donde el ciclo entre descubrimiento científico y producto comercial se ha acortado drásticamente.</p><br>
+            <br><h2>Almacenamiento: modelado y viabilidad industrial</h2><br>
+            <p>El reto principal del sector es conseguir que la energía esté disponible exactamente cuando se necesita. En este campo, el ingeniero físico aplica la termodinámica y la cinética para optimizar los procesos de transformación y conservación, diseñando sistemas que garanticen un flujo estable y equilibrado hacia la red.</p><br>
+            <div style="margin-bottom: 25px; text-align: center;">
+                <img src="img/lineas-electricas.jpg" 
+                     alt="Torres y líneas de alta tensión para distribución eléctrica" 
+                     style="width: 100%; border-radius: 8px;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                    Imagen de <a href="https://unsplash.com/es/fotos/9C1z4PrRUig" target="_blank" style="color: #337ab7;">Mattheus Silva</a> en Unsplash.
+                </p>
+            </div>
+            <p>A través del modelado y la simulación, se analizan los mecanismos de degradación para predecir el rendimiento de estas tecnologías en condiciones reales. Este nivel de precisión analítica es el que permite a compañías como Form Energy o Siemens Energy asegurar la viabilidad de sus proyectos antes de su implementación masiva, posicionando al ingeniero físico como una pieza indispensable para liderar la evolución técnica de estas organizaciones.</p><br>
 
             <br><h2>Eficiencia energética y simulación</h2><br>
             <p>Más allá de la generación, la eficiencia en el uso de la energía es otro campo con enorme proyección. El modelado térmico de edificios, la optimización de procesos industriales o el diseño de sistemas de recuperación de calor residual son áreas donde la simulación computacional, apoyada en física de fluidos y transferencia de calor, tiene un impacto directo y medible. Herramientas como COMSOL, OpenFOAM o ANSYS son el día a día de muchos ingenieros físicos que trabajan en este ámbito.</p><br>
