@@ -11,7 +11,7 @@ const proyectosArticles = {
             <p>Quantum Computing School es un programa de formación en computación cuántica que impulsamos desde la asociación. En un campo que avanza tan rápido, contar con una ruta de aprendizaje clara y estructurada hace la diferencia entre quedarse en la superficie o desarrollar un dominio real de las herramientas y conceptos que definen esta tecnología.</p><br>
             <p>El programa está diseñado para estudiantes de ingeniería física y carreras afines que quieran adentrarse en el mundo cuántico, tanto si es su primera vez como si ya tienen una base y buscan ampliarla con una formación más rigurosa.</p><br>
             
-            <img src="img/proyectos/quantum/IconoVectorCuantico.jpg.webp" alt="Circuito cuántico" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
+            <img src="img/proyectos/quantum/quant_vector.svg" alt="Circuito cuántico" style="width: 100%; max-width: 600px; height: auto; border-radius: 8px; margin: 20px auto; display: block;"><br>
 
             <br><h2>Estructura del programa</h2><br>
             <p>La formación se estructura en torno a Qiskit, el framework de código abierto desarrollado por IBM que se ha convertido en el estándar de la industria. A través de él se aprende a construir circuitos cuánticos, manipular qubits, implementar puertas lógicas cuánticas y ejecutar algoritmos tanto en simuladores como en hardware cuántico real mediante la nube de IBM.</p><br>
