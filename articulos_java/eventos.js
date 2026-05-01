@@ -28,7 +28,57 @@ const eventosArticles = {
             <p>Más allá de la competición, fue una oportunidad única para conectar con físicos e ingenieros de todo el mundo y conocer de cerca el ecosistema de empresas cuánticas a nivel mundial.</p>
         `
     },
+    'ilunion-26': {
+        title: 'Quantum Verse vuelve a ganar ILUNION University Game',
+        category: 'Logros y Premios',
+        author: 'Quantum Verse UC3M',
+        date: 'Abril 2026',
+        lead: 'Un equipo de Quantum Verse UC3M obtuvo el primer puesto en el ILUNION University Game 2026 tras proponer una solución para optimizar el funcionamiento de la planta de ILUNION TextilCare en Vallecas.',
+        body: `
+            <div class="video-container">
+                <iframe 
+                    src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7454485529842167808" 
+                    height="500" 
+                    width="100%" 
+                    frameborder="0" 
+                    allowfullscreen="" 
+                    title="Publicación insertada">
+                </iframe>
+            </div>
+            <p> El pasado 21 de abril, Quantum Verse fue invitado a la Torre ILUNION para participar en un hackathon centrado en la resolución de problemas reales en un entorno industrial. </p><br>
 
+            <br><h2>El Reto: ILUNION TextilCare</h2><br>
+           
+            <p>El reto planteado consistía en optimizar el funcionamiento de la planta de ILUNION TextilCare en Vallecas, especializada en el lavado y secado de textiles para el sector hotelero. A partir de los datos proporcionados por ILUNION, analizamos el funcionamiento de la planta y detectamos el principal problema del proceso: la aparición de cuellos de botella, atascos y pérdidas de eficiencia en la fase de secado de la felpa.</p><br>
+
+            <img src="img/eventos/ilunion_26/equipo-ilunion.webp" class="image-placeholder"><br>
+
+            <br><h2>Nuestra Solución</h2><br>
+            <p>Desde Quantum Verse, abordamos el problema mediante una propuesta basada en simulación, optimización y monitorización. El objetivo era entender mejor el comportamiento de la planta y proponer una forma más eficiente de organizar el flujo de trabajo.</p><br>
+
+            <p>Para ello, desarrollamos un modelo en Python capaz de reproducir el funcionamiento de la fábrica y evaluar distintas estrategias de procesamiento. A partir del historial de datos disponible, el sistema permite ajustar dinámicamente el orden de lavado y la distribución del personal según las necesidades de cada momento.</p><br>
+
+            <br><h2>Resultados</h2><br>
+            <p>Nuestra propuesta se estructuró en tres niveles:</p><br>
+
+            <ul>
+                <li><strong>Simulación:</strong> un modelo en Python que permite reproducir y entender el funcionamiento de la planta, teniendo en cuenta limitaciones como tiempos de lavado, capacidad de secado y disponibilidad de personal.</li>
+                <li><strong>Optimización:</strong> un sistema para reajustar dinámicamente el orden de lavado y evitar acumulaciones en las fases críticas del proceso.</li>
+                <li><strong>Monitorización:</strong> una interfaz pensada para facilitar la comunicación con los trabajadores, indicando instrucciones sobre redistribución de personal y orden de lavado.</li>
+            </ul><br>
+
+            <img src="img/eventos/ilunion_26/simulacion-planta.webp" class="image-placeholder"><br>
+
+            <p>De esta manera, nuestra solución permitió eliminar los cuellos de botella y atascos, mejorando la eficiencia global del proceso. Además, la simulación permite adaptar la organización del personal según la carga de trabajo, teniendo en cuenta periodos de mayor o menor demanda.</p><br>
+
+            <p>Más allá del resultado, pudimos comprobar cómo herramientas de simulación y análisis de datos pueden tener un impacto directo en problemas industriales reales.</p><br>
+
+            <br><h2>La Gran Final</h2><br>
+            <p>Al día siguiente, el equipo volvió a la Torre ILUNION para presentar sus resultados ante la junta directiva de ILUNION TextilCare. La facilidad de implementación de la propuesta y los resultados obtenidos en la optimización fueron reconocidos con el primer premio de la competición.</p><br>
+
+            <img src="img/eventos/ilunion_26/foto-premio.webp" class="image-placeholder">
+        `
+},
     'ilunion': {
         title: 'Ilunion University Challenge 2026',
         category: 'Competición',
