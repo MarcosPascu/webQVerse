@@ -33,7 +33,7 @@ const eventosArticles = {
         category: 'Logros y Premios',
         author: 'Quantum Verse UC3M',
         date: 'Abril 2026',
-        lead: 'Un equipo de Quantum Verse UC3M obtuvo el primer puesto en el ILUNION University Game 2026 tras proponer una solución para optimizar el funcionamiento de la planta de ILUNION TextilCare en Vallecas.',
+        lead: 'El equipo de Quantum Verse UC3M obtuvo el primer puesto en el ILUNION University Game 2026 tras proponer una solución para optimizar el funcionamiento de la planta de ILUNION TextilCare en Vallecas.',
         body: `
             <div class="video-container">
                 <iframe 
