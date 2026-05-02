@@ -68,7 +68,7 @@ const carrerasArticles = {
             <br><h2>Fusión nuclear: el gran reto tecnológico a largo plazo</h2><br>
             <p>La fusión nuclear es uno de los desafíos mas complejos que tenemos por delante, donde la física y la ingeniería se vuelven inseparables y el perfil de ingeniero físico resulta crucial. Proyectos como ITER en Francia, el mayor tokamak del mundo actualmente en construcción, o las startups privadas que han proliferado en los últimos años como Commonwealth Fusion Systems, TAE Technologies o Helion, necesitan ingenieros que entiendan la física de plasmas, el confinamiento magnético, la resistencia de materiales a flujos de neutrones de alta energía y los sistemas de diagnóstico que permiten monitorizar el plasma en tiempo real.</p><br>
             <div style="margin-bottom: 25px; text-align: center;">
-                <img src="img/iter-tokamak.jpg" 
+                <img src="img/energias/iter-tokamak.webp" 
                      alt="Interior de la cámara de vacío del tokamak de ITER. © ITER Organization." 
                      style="width: 100%; border-radius: 8px;">
                 <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
@@ -79,7 +79,7 @@ const carrerasArticles = {
 
             <br><h2>Energía solar: innovación y materiales avanzados</h2><br>
             <div style="margin-bottom: 25px; text-align: center;">
-                <img src="img/solar-sevilla.jpg" 
+                <img src="img/energias/solar-sevilla.webp" 
                      alt="Planta termosolar Gemasolar en Fuentes de Andalucía, Sevilla, con tecnología de receptor central y almacenamiento." 
                      style="width: 100%; border-radius: 8px;">
                 <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
@@ -92,7 +92,7 @@ const carrerasArticles = {
             <br><h2>Almacenamiento: modelado y viabilidad industrial</h2><br>
             <p>El reto principal del sector es conseguir que la energía esté disponible exactamente cuando se necesita. En este campo, el ingeniero físico aplica la termodinámica y la cinética para optimizar los procesos de transformación y conservación, diseñando sistemas que garanticen un flujo estable y equilibrado hacia la red.</p><br>
             <div style="margin-bottom: 25px; text-align: center;">
-                <img src="img/lineas-electricas.jpg" 
+                <img src="img/energias/lineas-electricas.webp" 
                      alt="Torres y líneas de alta tensión para distribución eléctrica" 
                      style="width: 100%; border-radius: 8px;">
                 <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
