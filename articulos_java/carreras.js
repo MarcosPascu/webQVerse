@@ -5,26 +5,53 @@ const carrerasArticles = {
         category: 'Carreras Profesionales',
         author: 'Orientación Laboral',
         date: 'Febrero 2026',
-        lead: 'La segunda revolución cuántica ya está aquí, y los ingenieros físicos son el perfil perfecto para liderarla, combinando mecánica cuántica pura con ingeniería de sistemas.',
+        lead: 'Vivimos en la segunda revolución cuántica y se necesitan expertos capaces de convertir los principios cuánticos en soluciones industriales reales. El ingeniero físico es capaz de integrar la física con el diseño de sistemas complejos y por ello es el perfil idóneo para liderar este cambio tecnológico.  ',
         body: `
             <h2>Un sector en plena ebullición</h2><br>
-            <p>La computación cuántica ha dejado de ser ciencia ficción. En la última década, el ritmo de inversión pública y privada se ha disparado: la Unión Europea ha comprometido más de mil millones de euros a través del Quantum Flagship, y empresas como IBM, Google o IonQ compiten por alcanzar la supremacía cuántica en aplicaciones reales. En este contexto, la demanda de profesionales que comprendan tanto la física subyacente como los sistemas de ingeniería no deja de crecer.</p><br>
-            <p>El ingeniero físico ocupa una posición única en este ecosistema. Su formación le permite moverse con soltura entre el mundo de los qubits y el de los circuitos, entre la mecánica cuántica y la arquitectura de sistemas. No es puramente un teórico ni puramente un ingeniero: es el puente entre ambas disciplinas, y eso es exactamente lo que el sector necesita.</p><br>
+            <p>Las tecnologías cuánticas se han convertido en uno de los principales motores de la actual revolución tecnológica. Este sector afecta a campos tan diversos como la computación, las telecomunicaciones, la logística, la medicina o la energía, por lo que las expectativas en cuanto a su rentabilidad y desarrollo a futuro son muy altas. Esto ha impulsado un notable aumento de la inversión global. La Unión Europea ha invertido miles de millones de euros a través de iniciativas de investigación como Quantum technologies. Asimismo, grandes compañías del sector tecnológico como IBM, actual líder de la inversión en computación cuántica, Ion Q o Google (a través de Alphabet Inc.) también son importantes inversoras en el desarrollo de estas tecnologías.</p><br>
+            <p>Este rápido avance de las tecnologías cuánticas ha generado una gran oferta de trabajo en este sector, sin embargo, estos puestos requieren habilidades específicas: alto conocimiento en física cuántica, matemáticas, programación, o diseño de algoritmos. Es por ello que el ingeniero físico encaja perfectamente en este papel.</p><br>
 
-            <br><h2>Hardware cuántico: construir lo que aún no existe</h2><br>
-            <p>El diseño del hardware cuántico es, posiblemente, uno de los retos de ingeniería más exigentes de nuestra época. Trabajar con qubits superconductores requiere operar a temperaturas cercanas al cero absoluto, miles de veces más frías que el espacio exterior. Los qubits de iones atrapados exigen un control láser de precisión nanométrica. Y los sistemas fotónicos integrados demandan un dominio profundo de la óptica cuántica y la nanofabricación.</p><br>
-            <p>En todos estos casos, el ingeniero físico aporta algo esencial: la capacidad de entender el fenómeno cuántico que se está aprovechando y de diseñar el sistema de ingeniería que lo hace funcionar de forma robusta. Áreas como la criogenia, el blindaje electromagnético, el control de errores cuánticos o la integración de electrónica clásica con sistemas cuánticos son campos donde este perfil es especialmente valorado.</p><br>
-
+            <br><h2>Hardware cuántico</h2><br>
+            <p>El desarrollo del hardware cuántico representa uno de los mayores desafíos científicos y tecnológicos actuales, ya que requiere diseñar dispositivos que operen en condiciones físicas extremas y muy inestables.</p><br>
+            <p>El hardware en tecnologías cuánticas se basan en los quibts. Los qubit son la unidad básica de información cuántica. Difiere del bit clásico en que puede ser 0 y 1 a la vez gracias a la superposición. Esto permite realizar cálculos mucho más eficientes y a una velocidad mucho mayor. </p><br>
+            <p>La implementación de este hardware conlleva una gran complejidad técnica ya que cada tipo de qubit presenta complicaciones que condicionan su viabilidad. Por ejemplo, trabajar con qubits superconductores requiere un estado de criogenia, temperaturas próximas al cero absoluto. Además, el estado de superconductividad no es estable, cualquier mínima interferencia destruye la información. Por otro lado, los qubits de iones atrapados exigen un control láser de precisión nanométrica y  los qubits fotónicos pueden trabajar a temperatura ambiente pero, requieren técnicas complejas de medición y componentes ópticos muy precisos.</p><br>
+            <div style="margin-bottom: 25px; text-align: center;">
+                <img src="img/carreras/ifcomputacion/procesador-cuantico.webp" 
+                    alt="Procesador cuántico ." 
+                    style="width: 100%; border-radius: 8px;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                    Imagen: <a href="https://www.ibm.com/quantum/hardware" target="_blank" style="color: #337ab7;">IBM Quantum</a>. © IBM.
+                </p>
+            </div>
+            <p>En todos estos casos el ingeniero físico es esencial: tiene conocimientos avanzados en cuántica, pero también maneja otras áreas por lo que, además de entender el fenómeno cuántico, puede desarrollar el sistema de ingeniería teniendo en cuenta todas las condiciones, de tal forma que el resultado sea consistente.</p><br>
+    
             <br><h2>Software y algoritmos cuánticos</h2><br>
-            <p>La otra gran rama del sector es el desarrollo de algoritmos y software cuántico. Aquí el reto es diseñar procedimientos que aprovechen fenómenos como la superposición y el entrelazamiento para resolver problemas que son intratables para los ordenadores clásicos: simulación de moléculas para el diseño de fármacos, optimización de rutas logísticas, criptografía post-cuántica o aceleración del aprendizaje automático.</p><br>
-            <p>Frameworks como Qiskit (IBM), Cirq (Google) o PennyLane se han convertido en las herramientas estándar del sector. El ingeniero físico, con su bagaje en álgebra lineal, mecánica cuántica y programación científica, está en una posición privilegiada para dominarlos. No es casual que muchos de los mejores equipos de software cuántico estén liderados por físicos reconvertidos en programadores.</p><br>
+            <p>El otro pilar fundamental de esta industria es el desarrollo de softwares y algoritmos cuánticos capaces de integrar fenómenos como la superposición, el entrelazamiento o la interferencia para resolver problemas imposibles de procesar en los ordenadores convencionales.</p><br>
+            <p>Para ello se emplean Kits de Desarrollo de Software (SDK) como Qiskit (IBM), Cirq (Google) o PennyLane(referente en Quantum Machine Learning). Estas herramientas permiten escribir código en lenguajes familiares y accesibles, como Python,  y traducirlo a instrucciones cuánticas. </p><br>
+            <p>Sin embargo, ahora mismo el foco está puesto en el Software de Corrección de Errores Cuánticos(QEC), un tipo de software que implementa códigos que permiten detectar y corregir errores por la decoherencia y ruido ambiental sin alterar el estado de los qubits, protegiendo la información cuántica.</p><br>
+            <p>En este ámbito el ingeniero físico es un perfil clave. Su dominio en álgebra lineal, mecánica cuántica y programación combinado con una base en programación cuántica, le permite comprender, manejar y desarrollar softwares complejos enfocados íntegramente a la computación cuántica.</p><br>
 
             <br><h2>¿Dónde trabaja un ingeniero físico cuántico?</h2><br>
-            <p>El abanico de salidas es amplio. Por un lado están las grandes tecnológicas: IBM Quantum, Google Quantum AI, Microsoft Azure Quantum e Intel todos tienen divisiones cuánticas activas contratando ingenieros físicos. Por otro lado, el ecosistema de startups especializadas crece sin parar: empresas como QuEra, Pasqal, Oxford Quantum Circuits o la española Multiverse Computing ofrecen entornos más ágiles donde se puede asumir mayor responsabilidad desde el principio.</p><br>
-            <p>A nivel académico, los centros de investigación en física cuántica aplicada, como el ICFO en Barcelona, el CSIC o el Instituto Max Planck, son también destinos naturales para quienes prefieran seguir la vía investigadora antes de dar el salto a la industria. Y cada vez más, sectores como la banca, la farmacéutica o la logística están creando sus propios equipos internos de exploración cuántica, buscando perfiles capaces de evaluar qué puede aportarles esta tecnología ya hoy.</p><br>
+            <p>Gracias a la versatilidad del ingeniero físico dentro del mundo cuántico, las salidas laborales son muy amplias:</p><br>
+            <p>Si quiere orientar su carrera hacia el desarrollo del hardware, destacan empresas líderes como IBM quantum, Google Quantum AI o Intel. Aquí trabajaría diseñando los qubits, los sistemas de control y criogenia, nanofabricación o mejorando los materiales para reducir la decoherencia.</p><br>
+            <p>Asimismo, en el sector del software, se puede dedicar a la implementación del Corrección de Errores Cuánticos(QEC), simulación de sistemas cuánticos y creación de compiladores, en empresas como Microsoft Azure Quantum o NVIDIA.</p><br>
+            <p>Además de las mencionadas, hay muchas otras empresas enfocadas en este sector como QuEra Computing, Pasqal, Oxford Quantum Circuits.</p><br>
+            <p>A nivel nacional también hay oportunidades en empresas como Multiverse computing o centros de investigación como en el Barcelona Supercomputing Center (BSC-CNS) que instaló en 2025 el primer ordenador cuántico con tecnología 100% europea. También está el centro de computación cuántica IBM-Euskadi, en Donostia, que ha inaugurado junto a IBM el primer IBM quantum System Two de Europa.</p><br>
+            <div style="margin-bottom: 25px; text-align: center;">
+                <img src="img/carreras/ifcomputacion/ordenadorcuanticoBSC.webp" 
+                    alt="Ordenador cuantico de BSC." 
+                    style="width: 100%; border-radius: 8px;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                    Imagen: <a href="https://quantumspain-project.es/quantum-spain-abre-el-acceso-a-su-ordenador-cuantico/" target="_blank" style="color: #337ab7;">Quantum Spain Project</a>. © Quantum Spain.
+                   
+            </div>
+            <p>Si quieres una carrera en la investigación, existen centros de referencia internacional como el ICFO en Barcelona, los diversos institutos del CSIC, el Instituto Max Planck en Alemania o el CERN Quantum Technology Initiative en Suiza, entre otros.</p><br>
+            <p>Además cada vez más sectores identifican áreas en las que implementar la computación cuántica, por lo que la demanda de ingenieros físicos especializados en esta tecnología aumentará todavía más en los próximos años.</p><br>
 
+        
             <br><h2>Formación complementaria recomendada</h2><br>
-            <p>Más allá del grado, quien quiera especializarse en este sector debería familiarizarse con los cursos y certificaciones de IBM Quantum, explorar la plataforma Quantum Rings para practicar con algoritmos reales, y seguir de cerca los desarrollos del MIT, Caltech o ETH Zürich, que publican material formativo de alta calidad de forma abierta. Participar en hackathons como el MIT iQuHACK, en el que nuestra asociación ha competido, es también una forma excelente de adquirir experiencia práctica y visibilidad en el sector.</p><br>
+            <p>Más allá del grado, quien quiera especializarse en este sector debería familiarizarse con los cursos y certificaciones de IBM Quantum, explorar la plataforma Quantum Rings para practicar con algoritmos reales, y seguir de cerca los desarrollos del MIT, Caltech o ETH Zürich, que publican material formativo de alta calidad de forma abierta. Participar en hackathons como el MIT iQuHACK, en el que nuestra asociación, QVerse; ha competido, es también una forma excelente de adquirir experiencia práctica y visibilidad en el sector. Por otro lado, muchas de las empresas e institutos mencionados, como el IFCO, ofrecen becas de investigación y prácticas en el ámbito de la cuántica a estudiantes de grado y máster facilitando el acceso al sector.</p><br>
+
         `
     },
 
