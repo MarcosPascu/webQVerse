@@ -68,7 +68,7 @@ const carrerasArticles = {
             <br><h2>Fusión nuclear: el gran reto tecnológico a largo plazo</h2><br>
             <p>La fusión nuclear es uno de los desafíos mas complejos que tenemos por delante, donde la física y la ingeniería se vuelven inseparables y el perfil de ingeniero físico resulta crucial. Proyectos como ITER en Francia, el mayor tokamak del mundo actualmente en construcción, o las startups privadas que han proliferado en los últimos años como Commonwealth Fusion Systems, TAE Technologies o Helion, necesitan ingenieros que entiendan la física de plasmas, el confinamiento magnético, la resistencia de materiales a flujos de neutrones de alta energía y los sistemas de diagnóstico que permiten monitorizar el plasma en tiempo real.</p><br>
             <div style="margin-bottom: 25px; text-align: center;">
-                <img src="img/energias/iter-tokamak.webp" 
+                <img src="img/carreras/energias/iter-tokamak.webp" 
                      alt="Interior de la cámara de vacío del tokamak de ITER. © ITER Organization." 
                      style="width: 100%; border-radius: 8px;">
                 <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
@@ -79,7 +79,7 @@ const carrerasArticles = {
 
             <br><h2>Energía solar: innovación y materiales avanzados</h2><br>
             <div style="margin-bottom: 25px; text-align: center;">
-                <img src="img/energias/solar-sevilla.webp" 
+                <img src="img/carreras/energias/solar-sevilla.webp" 
                      alt="Planta termosolar Gemasolar en Fuentes de Andalucía, Sevilla, con tecnología de receptor central y almacenamiento." 
                      style="width: 100%; border-radius: 8px;">
                 <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
@@ -92,7 +92,7 @@ const carrerasArticles = {
             <br><h2>Almacenamiento: modelado y viabilidad industrial</h2><br>
             <p>El reto principal del sector es conseguir que la energía esté disponible exactamente cuando se necesita. En este campo, el ingeniero físico aplica la termodinámica y la cinética para optimizar los procesos de transformación y conservación, diseñando sistemas que garanticen un flujo estable y equilibrado hacia la red.</p><br>
             <div style="margin-bottom: 25px; text-align: center;">
-                <img src="img/energias/lineas-electricas.webp" 
+                <img src="img/carreras/energias/lineas-electricas.webp" 
                      alt="Torres y líneas de alta tensión para distribución eléctrica" 
                      style="width: 100%; border-radius: 8px;">
                 <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
@@ -111,24 +111,46 @@ const carrerasArticles = {
         category: 'Carreras Profesionales',
         author: 'Orientación Laboral',
         date: 'Mayo 2026',
-        lead: 'Por qué los físicos son tan valorados en el mundo del Big Data y la Inteligencia Artificial, y cómo la formación en ingeniería física abre las puertas de uno de los sectores con mayor demanda del mercado.',
+        lead: 'Los ingenieros físicos son muy valorados en el mundo del Big Data y la Inteligencia Artificial, y la formación en ingeniería física abre las puertas de uno de los sectores con mayor demanda del mercado, pero, ¿por qué?',
         body: `
             <h2>De los detectores a los datos</h2><br>
-            <p>La física experimental siempre ha sido, en el fondo, una ciencia de datos. El CERN genera petabytes de información por segundo. Los telescopios del observatorio Rubin registrarán decenas de miles de millones de galaxias. Los laboratorios de fusión producen flujos continuos de mediciones de plasma a alta frecuencia. Procesar, analizar y extraer conclusiones de estos volúmenes de información es una habilidad que los físicos han desarrollado de forma natural, mucho antes de que el término "Data Science" existiera como tal.</p><br>
-            <p>No es sorprendente, por tanto, que en los últimos años los físicos se hayan convertido en uno de los perfiles más buscados por empresas tecnológicas, consultoras y startups de inteligencia artificial. La combinación de rigor matemático, capacidad de modelado, intuición para los datos y habilidades de programación que aporta el grado en ingeniería física es difícil de encontrar en otras titulaciones.</p><br>
+            <p>La física experimental siempre ha sido, en el fondo, una ciencia de datos. Por ejemplo: el CERN genera petabytes de información por segundo; los telescopios del observatorio Rubin registrarán decenas de miles de millones de galaxias; los laboratorios de fusión producen flujos continuos de mediciones de plasma a alta frecuencia. Es una cantidad de información enorme que hay que procesar y analizar para extraer conclusiones. Ahí entran los ingenieros físicos, que lo hicieron posible mucho antes incluso de que el término "Data Science" existiera como tal.</p><br>
+            <p>El grado en ingeniería física te aporta rigor matemático, capacidad de modelado, intuición para los datos y habilidades de programación, por lo que es un perfil muy buscado por empresas tecnológicas, consultoras y startups de inteligencia artificial.</p><br>
+            
+            <img src="img/carreras/datos/cern.webp" 
+                     alt="Detector ATLAS del acelerador de particulas del CERN" 
+                     style="width: 100%; border-radius: 8px;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                    Imagen: <a href="https://www.nationalgeographic.com.es/ciencia/que-es-acelerador-particulas-y-para-que-sirve_23299" target="_blank" 
+                    style="color: #337ab7;">National Geographic</a>. © iStock.</p>
 
-            <br><h2>Lo que aporta el físico que otros no tienen</h2><br>
+            <br><h2>El papel del ingeniero físico</h2><br>
             <p>Un Data Scientist con formación en física no solo sabe aplicar modelos estadísticos o entrenar redes neuronales. Entiende por qué funcionan, cuándo fallan y cómo interpretarlos de forma crítica. La formación en mecánica estadística, por ejemplo, ofrece una intuición profunda sobre distribuciones de probabilidad y sistemas con muchos grados de libertad que resulta directamente aplicable al diseño de modelos de aprendizaje automático.</p><br>
             <p>Además, la costumbre de trabajar con incertidumbres, de propagar errores, de distinguir señal de ruido y de validar modelos frente a datos reales es algo que se entrena de forma sistemática en la física experimental y que muchos programas de ciencia de datos no enfatizan lo suficiente. En entornos donde las decisiones tienen consecuencias reales, esta mentalidad tiene un valor enorme.</p><br>
 
-            <br><h2>Inteligencia Artificial y aprendizaje automático</h2><br>
-            <p>El auge de la inteligencia artificial ha abierto un mercado laboral de dimensiones históricas. Pero más allá del hype, hay un núcleo duro de matemáticas y estadística que sustenta todos los avances: álgebra lineal, cálculo, optimización, probabilidad. Son exactamente las mismas herramientas que el ingeniero físico maneja a diario.</p><br>
+            <img src="img/carreras/datos/red-neuronal.jpg"
+                     alt="Visualización de una red neuronal" 
+                     style="width: 100%; border-radius: 8px;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                Imagen: <a href="https://www.profesionalreview.com/2022/11/05/red-neuronal/" target="_blank" 
+                style="color: #337ab7;">Red neuronal: ¿Qué es y para qué sirve?</a>. © Profesional Review.</p>
+
+            <br><h2>La nueva normalidad de la inteligencia artificial</h2><br>
+            <p>El auge de la inteligencia artificial ha abierto un mercado laboral de dimensiones históricas. Pero detrás de este mundo de las IA, hay una base muy sólida de matemáticas y estadística que sustenta todos los avances: álgebra lineal, cálculo, optimización, probabilidad. Son exactamente las mismas herramientas que el ingeniero físico maneja a diario.</p><br>
             <p>Áreas como el aprendizaje automático aplicado a la física (Physics-Informed Neural Networks, emuladores de simulaciones costosas, detección de anomalías en experimentos) están creciendo rápidamente y representan un espacio natural donde físicos e informáticos colaboran. Empresas como DeepMind, con su revolucionario AlphaFold para el plegamiento de proteínas, son un ejemplo de hasta dónde puede llegar esta combinación.</p><br>
 
+            
             <br><h2>Herramientas y lenguajes del sector</h2><br>
-            <p>Python se ha convertido en el idioma universal del Data Science, y los físicos suelen llegar a él de forma natural desde el entorno científico. Librerías como NumPy, SciPy, Pandas, Matplotlib o Scikit-learn son el pan de cada día, y los entornos de computación en la nube como AWS, Google Cloud o Azure son cada vez más accesibles. Para quien quiera especializarse en deep learning, frameworks como PyTorch o TensorFlow son el siguiente paso lógico.</p><br>
-            <p>Más allá de las herramientas, el físico aporta algo que ningún framework puede sustituir: la capacidad de formular preguntas bien planteadas, de construir modelos con supuestos explícitos y de interpretar los resultados con escepticismo constructivo. En un mercado saturado de perfiles técnicos, eso marca la diferencia.</p><br>
+            <p>Python se ha convertido en el idioma universal del Data Science, y los físicos se adaptan a él fácilmente para trabajar en entornos científicos. Librerías como NumPy, SciPy, Pandas, Matplotlib o Scikit-learn son el pan de cada día, y los entornos de computación en la nube como AWS, Google Cloud o Azure son cada vez más accesibles. Para quien quiera especializarse en deep learning, frameworks como PyTorch o TensorFlow son el siguiente paso lógico.</p><br>
+            <p>Pero la capacidad más importante de un físico, algo que ningún framework puede sustituir, más allá de las herramientas, es su capacidad de formular preguntas bien planteadas, de construir modelos con supuestos explícitos y de interpretar los resultados con escepticismo y de manera constructiva. En un mercado saturado de perfiles técnicos, eso marca la diferencia.</p><br>
 
+            <img src="img/carreras/datos/medico.jpg"
+                     alt="Médico utilizando tecnología de vanguardia" 
+                     style="width: 100%; border-radius: 8px;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                Imagen: <a href="https://www.blogdehla.es/la-inteligencia-artificial-en-salud-presente-o-futuro/" target="_blank" 
+                style="color: #337ab7;">Blog de HLA</a>. © Blog de HLA.</p>
+            
             <br><h2>Salidas profesionales</h2><br>
             <p>Las salidas son extraordinariamente diversas. Desde posiciones de Data Scientist o Machine Learning Engineer en empresas tecnológicas y consultoras, hasta roles de análisis cuantitativo en banca y finanzas, pasando por equipos de I+D en farmacéuticas, telecomunicaciones, automoción o administración pública. También es creciente la demanda en el sector de la IA aplicada a la salud, donde la capacidad de manejar datos complejos de imagen médica o de genómica requiere exactamente el tipo de formación que ofrece la ingeniería física.</p><br>
         `
