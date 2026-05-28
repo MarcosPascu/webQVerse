@@ -120,7 +120,7 @@ const carrerasArticles = {
             <img src="img/carreras/datos/cern.webp" 
                      alt="Detector ATLAS del acelerador de particulas del CERN" 
                      style="width: 100%; border-radius: 8px;">
-                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;text-align: center;">
                     Imagen: <a href="https://www.nationalgeographic.com.es/ciencia/que-es-acelerador-particulas-y-para-que-sirve_23299" target="_blank" 
                     style="color: #337ab7;">National Geographic</a>. © iStock.</p>
 
@@ -131,7 +131,7 @@ const carrerasArticles = {
             <img src="img/carreras/datos/red-neuronal.jpg"
                      alt="Visualización de una red neuronal" 
                      style="width: 100%; border-radius: 8px;">
-                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;text-align: center;">
                 Imagen: <a href="https://www.profesionalreview.com/2022/11/05/red-neuronal/" target="_blank" 
                 style="color: #337ab7;">Red neuronal: ¿Qué es y para qué sirve?</a>. © Profesional Review.</p>
 
@@ -147,7 +147,7 @@ const carrerasArticles = {
             <img src="img/carreras/datos/medico.jpg"
                      alt="Médico utilizando tecnología de vanguardia" 
                      style="width: 100%; border-radius: 8px;">
-                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;">
+                <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;text-align: center;">
                 Imagen: <a href="https://www.blogdehla.es/la-inteligencia-artificial-en-salud-presente-o-futuro/" target="_blank" 
                 style="color: #337ab7;">Blog de HLA</a>. © Blog de HLA.</p>
             
@@ -156,21 +156,105 @@ const carrerasArticles = {
         `
     },
 
-    'nano': {
-        title: 'I+D en Materiales y Nanotecnología',
-        category: 'Carreras Profesionales',
-        author: 'Orientación Laboral',
-        date: 'Mayo 2026',
-        lead: 'Manipulando la materia átomo a átomo para crear los dispositivos del futuro.',
-        body: `
-            <h2>Un campo sin límites</h2><br>
-            <p>La nanotecnología y la ciencia de materiales son disciplinas donde los ingenieros físicos encuentran uno de sus terrenos más naturales. Si quieres saber de primera mano cómo se investiga en este área, te invitamos a leer la crónica de nuestra visita al Instituto de Ciencia de Materiales de Madrid (ICMM-CSIC), uno de los centros de investigación más punteros de España en este campo.</p><br>
-            <p style="text-align:center; margin-top: 30px;">
-                <a href="articulo.html?id=icmm" style="display: inline-block; padding: 12px 28px; background-color: #1a1a2e; color: white; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 1rem;">
-                    Leer la crónica de la visita al ICMM →
-                </a>
+'nano': {
+    title: 'Nanotecnología y Ciencia de Materiales: diseñar el futuro desde la escala atómica',
+    category: 'Carreras Profesionales',
+    author: 'Orientación Laboral',
+    date: 'Mayo 2026',
+    lead: 'La nanotecnología y la ciencia de materiales permiten diseñar dispositivos, sensores, recubrimientos y sistemas energéticos manipulando la materia a escalas extremadamente pequeñas. Para el ingeniero físico, es uno de los campos donde la frontera entre física fundamental e ingeniería aplicada resulta más directa.',
+    body: `
+        <h2>La ingeniería de lo invisible</h2><br>
+        <p>La nanotecnología trabaja con estructuras del orden de los nanómetros, una escala en la que las propiedades de los materiales pueden cambiar de forma radical. A ese tamaño, efectos cuánticos, fenómenos de superficie, confinamiento electrónico y nuevas propiedades ópticas o mecánicas empiezan a dominar el comportamiento de la materia.</p><br>
+
+        <div style="margin-bottom: 25px; text-align: center;">
+            <img src="img/carreras/nano/grafeno.webp" 
+                 alt="Estructura atómica del grafeno formada por una red hexagonal de átomos de carbono" 
+                 style="width: 100%; border-radius: 8px;">
+            <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic; text-align: center;">
+                Imagen: <a href="https://en.wikipedia.org/wiki/Graphene" target="_blank" style="color: #337ab7;">Wikipedia</a>. © Wikimedia Commons.
             </p>
-        `
-    },
+        </div>
+
+        <p>Este campo es especialmente atractivo para los ingenieros físicos porque exige comprender tanto los principios fundamentales que gobiernan la materia como las técnicas necesarias para convertir ese conocimiento en dispositivos reales. No se trata únicamente de estudiar materiales, sino de diseñarlos con un propósito concreto: mejorar baterías, fabricar sensores más sensibles, desarrollar nuevos semiconductores, crear recubrimientos funcionales o avanzar en tecnologías biomédicas.</p><br>
+
+        <br><h2>Materiales avanzados: del laboratorio a la industria</h2><br>
+        <p>La ciencia de materiales es una de las bases tecnológicas de sectores estratégicos como la energía, la electrónica, la computación, la medicina, la automoción o la industria aeroespacial. Cada avance en materiales puede abrir la puerta a una nueva generación de dispositivos: paneles solares más eficientes, chips más pequeños, materiales superconductores, membranas para filtrado, sensores químicos o sistemas de almacenamiento energético.</p><br>
+
+        <div style="margin-bottom: 25px; text-align: center;">
+            <img src="img/carreras/nano/materiales-avanzados.webp" 
+                 alt="Investigación en nanomateriales y materiales avanzados para aplicaciones tecnológicas" 
+                 style="width: 100%; border-radius: 8px;">
+            <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic; text-align: center;">
+                Imagen: <a href="https://www.nanomat-lab.com/" target="_blank" style="color: #337ab7;">Nanomat-Lab</a>. © Nanomat-Lab.
+            </p>
+        </div>
+
+        <p>En este contexto, el ingeniero físico aporta una formación especialmente versátil. Su conocimiento de mecánica cuántica, electromagnetismo, termodinámica, física del estado sólido y métodos computacionales le permite entender por qué un material se comporta de una determinada manera y cómo modificar sus propiedades para una aplicación concreta.</p><br>
+
+        <br><h2>Nanofabricación y caracterización</h2><br>
+        <p>Uno de los grandes retos de la nanotecnología es fabricar estructuras con precisión nanométrica. Para ello se utilizan técnicas como litografía, deposición de capas delgadas, crecimiento epitaxial, autoensamblado molecular o grabado químico y físico. Estas técnicas permiten construir dispositivos electrónicos, ópticos y sensores con un grado de control extremadamente alto.</p><br>
+
+        <div style="margin-bottom: 25px; text-align: center;">
+            <img src="img/carreras/nano/nanofabricacion.webp" 
+                 alt="Sala blanca modular utilizada en procesos de laboratorio y fabricación controlada" 
+                 style="width: 100%; border-radius: 8px;">
+            <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic; text-align: center;">
+                Imagen: <a href="https://www.medicalexpo.es/prod/schilling-engineering/product-112110-984497.html" target="_blank" style="color: #337ab7;">MedicalExpo</a>. © SCHILLING ENGINEERING.
+            </p>
+        </div>
+
+        <p>Pero fabricar no es suficiente: también hay que medir. La caracterización de materiales mediante microscopía electrónica, difracción de rayos X, espectroscopía, microscopía de fuerza atómica o técnicas ópticas avanzadas es esencial para verificar la estructura y las propiedades del sistema. En este punto, el perfil del ingeniero físico vuelve a ser clave, porque combina intuición experimental con capacidad de análisis cuantitativo.</p><br>
+
+        <div style="margin-bottom: 25px; text-align: center;">
+            <img src="img/carreras/nano/microscopia-electronica.webp" 
+                 alt="Microscopio electrónico de barrido utilizado para la caracterización de materiales" 
+                 style="width: 100%; border-radius: 8px;">
+            <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic; text-align: center;">
+                Imagen: <a href="https://exactas.uba.ar/sic/fe-sem-supra-40-zeiss/" target="_blank" style="color: #337ab7;">Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires</a>. © FCEN-UBA.
+            </p>
+        </div>
+
+        <br><h2>Aplicaciones profesionales</h2><br>
+        <p>Las salidas profesionales en nanotecnología y materiales son muy amplias. Un ingeniero físico puede trabajar en centros de investigación, laboratorios de I+D, empresas de semiconductores, compañías energéticas, startups de materiales avanzados, industria biomédica o departamentos de innovación tecnológica.</p><br>
+
+        <p>Algunas áreas especialmente relevantes son el desarrollo de materiales para baterías, la optimización de células solares, la fabricación de sensores, la nanoelectrónica, los materiales magnéticos, los recubrimientos inteligentes, la fotónica integrada y los biomateriales. Todas ellas requieren perfiles capaces de conectar modelos físicos, técnicas experimentales y criterios de ingeniería.</p><br>
+
+        <br><h2>El papel de los centros de investigación</h2><br>
+        <p>En España existen centros de referencia donde se desarrollan líneas de investigación punteras en ciencia de materiales y nanotecnología. Entre ellos destaca el Instituto de Ciencia de Materiales de Madrid, ICMM-CSIC, donde se trabaja en áreas como materiales funcionales, nanomateriales, superficies, dispositivos avanzados y nuevas propiedades de la materia.</p><br>
+
+        <p>Desde Quantum Verse tuvimos la oportunidad de visitar el ICMM-CSIC y conocer de primera mano cómo se investiga en este ámbito. La visita permitió ver la conexión directa entre la formación en ingeniería física y el trabajo real en laboratorios de materiales avanzados.</p><br>
+
+        <div style="margin-bottom: 25px; text-align: center;">
+            <img src="img/carreras/nano/icmm.webp" 
+                 alt="Rótulo de acceso al Instituto de Ciencia de Materiales de Madrid, ICMM-CSIC" 
+                 style="width: 100%; border-radius: 8px;">
+            <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic; text-align: center;">
+                Imagen: <a href="https://rotulalo.madrid/rotulo-edificio-icmm-madrid/" target="_blank" style="color: #337ab7;">Rotúlalo Madrid</a>. © Rotúlalo Madrid.
+            </p>
+        </div>
+
+        <div style="text-align: center; margin: 35px 0;">
+    <a href="articulo.html?id=icmm" 
+       style="
+           display: inline-block;
+           padding: 16px 32px;
+           background-color: var(--primary-color);
+           color: white;
+           border-radius: 8px;
+           text-decoration: none;
+           font-weight: 700;
+           font-size: 1.05rem;
+           box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+       ">
+        Leer artículo completo sobre la visita al ICMM-CSIC &rarr;
+    </a>
+</div>
+
+        <br><br><h2>Formación recomendada</h2><br>
+        <p>Para especializarse en este sector, resulta recomendable reforzar conocimientos en física del estado sólido, química de materiales, simulación computacional, técnicas de caracterización y fabricación en sala limpia. También es muy útil familiarizarse con herramientas de análisis de datos, modelado atomístico y software de simulación como VASP, LAMMPS, COMSOL o paquetes de análisis cristalográfico.</p><br>
+
+        <p>La nanotecnología es, en definitiva, un campo donde el ingeniero físico puede aportar una visión especialmente completa: entiende la física que ocurre a escala microscópica, sabe analizar datos experimentales complejos y puede participar en el desarrollo de tecnologías con impacto industrial real.</p><br>
+    `
+},
 
 };

@@ -29,7 +29,7 @@ const eventosArticles = {
         `
     },
     'ilunion-26': {
-        title: 'Quantum Verse vuelve a ganar ILUNION University Game',
+        title: 'Quantum Verse gana el ILUNION University Game 2026',
         category: 'Logros y Premios',
         author: 'Quantum Verse UC3M',
         date: 'Abril 2026',
@@ -67,7 +67,12 @@ const eventosArticles = {
                 <li><strong>Monitorización:</strong> una interfaz pensada para facilitar la comunicación con los trabajadores, indicando instrucciones sobre redistribución de personal y orden de lavado.</li>
             </ul><br>
 
-            <img src="img/eventos/ilunion_26/simulacion-planta.webp" class="image-placeholder"><br>
+            <img 
+                src="img/eventos/ilunion_26/simulacion-planta.webp" 
+                class="image-placeholder"
+                style="display: block; margin: 0 auto;"
+            >
+            <br>
 
             <p>De esta manera, nuestra solución permitió eliminar los cuellos de botella y atascos, mejorando la eficiencia global del proceso. Además, la simulación permite adaptar la organización del personal según la carga de trabajo, teniendo en cuenta periodos de mayor o menor demanda.</p><br>
 
@@ -78,35 +83,7 @@ const eventosArticles = {
 
             <img src="img/eventos/ilunion_26/foto-premio.webp" class="image-placeholder">
         `
-},
-    'ilunion': {
-        title: 'Ilunion University Challenge 2026',
-        category: 'Competición',
-        author: 'Hunger 4 Innovation',
-        date: '20-21 de abril, 2026',
-        lead: 'Participaremos de nuevo concurso de Hunger 4 Innovation. Un reto de innovación abierta para resolver problemas reales.',
-        body: `
-            <h2>¿En qué consiste?</h2><br>
-            <p>El Ilunion University Challenge es una competición donde equipos multidisciplinares resuelven retos propuestos por empresas reales. Este año colaboramos con <strong>Moeve</strong>.</p><br>
-
-            <div style="display: flex; justify-content: center; margin: 30px 0;">
-                <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/DUnS-MygCyU/?utm_source=ig_web_copy_link" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
-                </blockquote>
-            </div>
-
-            <br><h2>Detalles del evento</h2><br>
-            <p>El evento tendrá lugar la Torre Ilunion. Durante dos días, los equipos trabajarán en soluciones innovadoras.</p><br>
-            <h3>Horario</h3>
-            <ul>
-                <li><strong>20 Abril:</strong> Presentación de retos e inicio de la solución (10:00-19:30).</li>
-                <li><strong>21 Abril:</strong> Desarrollo de soluciones y presentación final ante el jurado. (8:00-13:00)</li>
-            </ul>
-            <p>¡No pierdas la oportunidad de participar en nuestro equipo y demostrar tu talento!</p>
-
-            <script async src="//www.instagram.com/embed.js"></script>
-        `
     },
-
     'ilunion-win': {
         title: '¡Ganadores del Ilunion University Game 2025!',
         category: 'Logros y Premios',
@@ -138,58 +115,5 @@ const eventosArticles = {
 
             <img src="img/eventos/ilunion_25/Ilunion_win.jpeg" class="image-placeholder">
         `
-    },
-
-    'fotonica-sem': {
-        title: 'Seminario de Fotónica Aplicada',
-        category: 'Evento Académico',
-        author: 'Comité de Eventos',
-        date: '15 de Mayo',
-        lead: 'Únete a nosotros para una jornada de inmersión en el mundo de la luz y sus aplicaciones tecnológicas.',
-        body: `
-            <h2>Agenda</h2><br>
-            <ul>
-                <li>10:00 - Introducción a la Fotónica Integrada</li>
-                <li>11:30 - Comunicaciones Ópticas del Futuro</li>
-                <li>13:00 - Networking y aperitivo</li>
-            </ul>
-        `
-    },
-
-    'python-ws': {
-        title: 'Taller de Python Científico',
-        category: 'Formación',
-        author: 'Comité de Formación',
-        date: '22 de Mayo',
-        lead: 'Aprende las herramientas fundamentales para el cálculo numérico y la visualización de datos en ciencia.',
-        body: `
-            <h2>Requisitos</h2><br>
-            <p>Trae tu portátil. No se requiere experiencia previa en programación, aunque es recomendable. Cubriremos desde la sintaxis básica hasta el uso de Numpy, Scipy y Matplotlib.</p><br>
-        `
-    },
-
-    'congreso': {
-        title: 'V Congreso de Estudiantes de Física',
-        category: 'Congreso Anual',
-        author: 'Organización RSEF',
-        date: '20-23 de Octubre',
-        lead: 'El evento nacional de referencia para estudiantes de física e ingeniería física. Ciencia, comunidad y futuro.',
-        body: `
-            <h2>Participa</h2><br>
-            <p>El plazo para el envío de abstracts para pósters ya está abierto. Es una oportunidad única para presentar tus trabajos de fin de grado o proyectos de investigación en un entorno amigable y profesional.</p><br>
-        `
-    },
-
-    'hackathon': {
-        title: 'Hackathon de Física 2024',
-        category: 'Competición',
-        author: 'APES',
-        date: 'Marzo 2024',
-        lead: '24 horas, cafeína y problemas de física. La segunda edición de nuestro hackathon fue un éxito rotundo.',
-        body: `
-            <h2>Ganadores</h2><br>
-            <p>El equipo "Lagrangianos" se llevó el primer premio con su simulación de sistemas caóticos de tres cuerpos. ¡Enhorabuena a todos los participantes por el altísimo nivel demostrado!</p><br>
-        `
-    },
-
+        },
 };
