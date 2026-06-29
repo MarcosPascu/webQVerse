@@ -116,4 +116,79 @@ const eventosArticles = {
             <img src="img/eventos/ilunion_25/Ilunion_win.jpeg" class="image-placeholder">
         `
         },
+    
+
+    'charla-erik': {
+        title: 'Charla con Erik Torrontegui: la Segunda Revolución Cuántica',
+        category: 'Divulgación Cuántica',
+        author: 'Equipo Quantum Verse',
+        date: 'Mayo 2026',
+        lead: 'En QVerse conversamos con Erik Torrontegui sobre la Segunda Revolución Cuántica y las oportunidades que ya se están construyendo desde la UC3M.',
+        body: `
+            <div class="video-container">
+                <iframe 
+                    src="https://www.youtube.com/embed/CIbWnBVbLi0" 
+                    height="500" 
+                    width="100%" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                    title="Charla con Erik Torrontegui - Segunda Revolución Cuántica">
+                </iframe>
+            </div>
+
+            <br><h2>Una conversación sobre el futuro cuántico</h2><br>
+            <p>La semana pasada en QVerse tuvimos el privilegio de sentarnos con Erik Torrontegui, investigador y director del Máster en Tecnologías e Ingeniería Cuánticas de la UC3M, para hablar de una de las transformaciones científicas y tecnológicas más importantes de nuestro tiempo.</p><br>
+
+            <p>Durante la charla exploramos la llamada Segunda Revolución Cuántica: una nueva etapa en la que ya no solo entendemos el comportamiento de las partículas, sino que empezamos a controlarlo para desarrollar tecnologías con impacto real.</p><br>
+
+            <br><h2>La Segunda Revolución Cuántica</h2><br>
+            <p>Hablamos de tres grandes áreas que marcarán el futuro de la tecnología:</p><br>
+
+            <ul>
+                <li><strong>Computación cuántica:</strong> capaz de abordar problemas imposibles para los ordenadores clásicos actuales.</li>
+                <li><strong>Comunicaciones cuánticas:</strong> con el potencial de crear sistemas de transmisión de información extremadamente seguros.</li>
+                <li><strong>Sensores cuánticos:</strong> dispositivos de precisión inédita para aplicaciones científicas, médicas e industriales.</li>
+            </ul><br>
+
+            <br><h2>El ecosistema cuántico en la UC3M</h2><br>
+            <p>También conversamos sobre lo que ya se está construyendo desde nuestra universidad: el Grado, el Máster en Tecnologías e Ingeniería Cuánticas, la Cátedra con Indra y las oportunidades que están conectando formación, investigación e industria.</p><br>
+
+            <p>La UC3M no está observando el futuro cuántico desde fuera. Lo está fabricando desde dentro, formando a una nueva generación de físicos, ingenieros e investigadores preparados para liderar esta transformación.</p><br>
+
+            <br><h2>QVerse como punto de encuentro</h2><br>
+            <p>Desde QVerse queremos que los estudiantes sean parte activa de este proceso. A través de hackatones, programación cuántica, colaboraciones con empresas y actividades de divulgación, buscamos acercar estas tecnologías a quienes quieren aprender, construir y experimentar desde hoy.</p><br>
+
+            <p>Queremos agradecer especialmente al profesor Erik Torrontegui por su tiempo, cercanía y pasión por acercarnos a una tecnología que no pertenece a un futuro lejano: ya se está construyendo aquí y ahora.</p><br>
+
+            <br><h2>Publicación en Instagram</h2><br>
+
+            <div style="display: flex; justify-content: center; margin: 40px 0;">
+                <blockquote 
+                    class="instagram-media" 
+                    data-instgrm-permalink="https://www.instagram.com/p/DaGsNAuCWrG/?utm_source=ig_embed&amp;utm_campaign=loading" 
+                    data-instgrm-version="14" 
+                    style="
+                        background: #FFF; 
+                        border: 0; 
+                        border-radius: 3px; 
+                        box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15); 
+                        margin: 1px; 
+                        max-width: 540px; 
+                        min-width: 326px; 
+                        padding: 0; 
+                        width: 99.375%;
+                    ">
+                    <a href="https://www.instagram.com/p/DaGsNAuCWrG/" target="_blank" rel="noopener noreferrer">
+                        Ver esta publicación en Instagram
+                    </a>
+                </blockquote>
+            </div>
+        `
+    },
+
+
+
+
 };

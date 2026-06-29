@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eventos - QVerse</title>
-    <link rel="icon" type="image/png" href="img/logos/logo_pequeño_azul.png" />
+    <link rel="icon" type="image/png" href="img/logos/logo_pequeño_azul.png" />
     <meta
       name="description"
       content="Calendario de eventos, coferencias y talleres de la Asociación de Ingeniería Física."
@@ -54,36 +54,52 @@
     <!-- Main Content -->
     <main class="page-container">
       <div class="container">
-        <!-- Subsection: Upcoming Events -->
+
+                <!--
+        ============================================================
+        SECCIONES DESACTIVADAS: PROXIMOS EVENTOS Y CONGRESO NACIONAL DE FISICA
+        Estas secciones quedan completamente ocultas en la web mientras
+        permanezcan dentro de este bloque de comentario HTML.
+
+        IMPORTANTE PARA REACTIVARLAS:
+        Quita el inicio de comentario de esta línea superior y el cierre
+        situado después de la sección del congreso.
+
+        NOTA TECNICA:
+        No añadas marcadores de comentario HTML dentro de este bloque,
+        porque HTML no permite comentarios anidados.
+        ============================================================
+
         <section id="proximos" class="page-section">
           <div class="section-title">
             <h2>Próximos Eventos</h2>
             <div class="divider"></div>
+          </div>
+          <div class="event-item">
+            <div class="date-badge">
+              <span class="day">29</span>
+              <span class="month">MAY</span>
             </div>
-            <div class="event-item">
-              <div class="date-badge">
-                <span class="day">29</span>
-                <span class="month">MAY</span>
-              </div>
-              <div class="event-details">
-                <h3>Charla Master Quantum Technologies and Engineering</h3>
-                <p>
-                  Prof. Erik Torrontegui Muñoz, director del programa, nos contará todos los detalles.
-                </p>
-                <span class="location">📍 UC3M Campus Leganés | 🕒 13:00h</span>
-                <!--<a href="articulo.html?id=ilunion" class="read-more">Ver detalles &rarr;</a>-->
-              </div>
+            <div class="event-details">
+              <h3>Charla Master Quantum Technologies and Engineering</h3>
+              <p>
+                Prof. Erik Torrontegui Muñoz, director del programa, nos contará todos los detalles.
+              </p>
+              <span class="location">📍 UC3M Campus Leganés | 🕒 13:00h</span>
+              <a href="articulo.html?id=ilunion" class="read-more">Ver detalles &rarr;</a>
             </div>
           </div>
         </section>
 
-        <!-- Subsection: Annual Congress 
+        ============================================================
+        SECCION DESACTIVADA: CONGRESO NACIONAL DE FISICA
+        ============================================================
+
         <section id="congreso" class="page-section bg-light-rounded">
           <div class="section-title">
             <h2>Congreso Nacional de Física</h2>
             <div class="divider"></div>
           </div>
-           Highlight Card
           <div
             style="
               display: flex;
@@ -132,27 +148,45 @@
             </div>
           </div>
         </section>
-      -->
+
+        ============================================================
+        FIN DE SECCIONES DESACTIVADAS
+        ============================================================
+        -->
 
         <!-- Subsection: Past Events -->
         <section id="pasados" class="page-section">
-        <div class="container"> <div class="section-title">
+        <div class="container">
+          <div class="section-title">
             <h2>Eventos Pasados</h2>
             <div class="divider"></div>
           </div>
-          <article class="card">
 
           <div class="grid projects-grid">
-          <article class="card">
-            <div class="card-content">
-              <span class="tag completed">Abril 2026</span>
-              <h3>Quantum Verse gana el ILUNION University Game 2026</h3>
-              <p>
-                Una simulación de la planta de ILUNION TextilCare permitió automatizar y optimizar el proceso.
-              </p>
-              <a href="articulo.html?id=ilunion-26" class="read-more">Leer noticia completa &rarr;</a>
-            </div>
-          </article>
+
+            <article class="card">
+              <div class="card-content">
+                <span class="tag completed">Mayo 2026</span>
+                <h3>Charla "La Vangurdia Cuántica en la UC3M" con Erik Torrontegui</h3>
+                <p>
+                  Conversamos sobre la Segunda Revolución Cuántica y las oportunidades que ya se están construyendo desde la UC3M.
+                </p>
+                <a href="articulo.html?id=charla-erik" class="read-more">Leer noticia completa&rarr;</a>
+              </div>
+            </article>
+          
+
+            <article class="card">
+              <div class="card-content">
+                <span class="tag completed">Abril 2026</span>
+                <h3>Quantum Verse gana el ILUNION University Game 2026</h3>
+                <p>
+                  Una simulación de la planta de ILUNION TextilCare permitió automatizar y optimizar el proceso.
+                </p>
+                <a href="articulo.html?id=ilunion-26" class="read-more">Leer noticia completa &rarr;</a>
+              </div>
+            </article>
+
             <article class="card">
               <div class="card-content">
                 <span class="tag completed">Febrero 2026</span>
@@ -161,7 +195,7 @@
                   Charla con expertos del sector sobre el futuro de la ciencia
                   de materiales.
                 </p>
-                <a href="articulo.html?id=icmm" class="read-more">Ver crónica y vídeo &rarr;</a>
+                <a href="articulo.html?id=icmm" class="read-more">Leer noticia completa &rarr;</a>
               </div>
             </article>
 
@@ -172,7 +206,7 @@
                 <p>
                   24 horas para resolver problemas complejos de comunicación y computación cuántica a nivel internacional.
                 </p>
-                <a href="articulo.html?id=iquhack" class="read-more">Leer crónica &rarr;</a>
+                <a href="articulo.html?id=iquhack" class="read-more">Leer noticia completa &rarr;</a>
               </div>
             </article>
 
@@ -186,9 +220,10 @@
                 <a href="articulo.html?id=ilunion-win" class="read-more">Leer noticia completa &rarr;</a>
               </div>
             </article>
-          </div>
 
-        </div> </section>
+          </div>
+        </div>
+        </section>
     </main>
 
     <!-- Footer -->
@@ -196,7 +231,7 @@
       <!-- (Same footer content) -->
       <div class="container footer-content">
         <div class="footer-col">
-          <img src="img/logos/logo_pequeño_negro.png" alt="QuantumVerse" style="height: 80px; margin-bottom: 15px;">
+          <img src="img/logos/logo_pequeño_negro.png" alt="QuantumVerse" style="height: 80px; margin-bottom: 15px;">
           <p>
           </p>
         </div>
