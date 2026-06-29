@@ -128,7 +128,7 @@ const carrerasArticles = {
             <p>Un Data Scientist con formación en física no solo sabe aplicar modelos estadísticos o entrenar redes neuronales. Entiende por qué funcionan, cuándo fallan y cómo interpretarlos de forma crítica. La formación en mecánica estadística, por ejemplo, ofrece una intuición profunda sobre distribuciones de probabilidad y sistemas con muchos grados de libertad que resulta directamente aplicable al diseño de modelos de aprendizaje automático.</p><br>
             <p>Además, la costumbre de trabajar con incertidumbres, de propagar errores, de distinguir señal de ruido y de validar modelos frente a datos reales es algo que se entrena de forma sistemática en la física experimental y que muchos programas de ciencia de datos no enfatizan lo suficiente. En entornos donde las decisiones tienen consecuencias reales, esta mentalidad tiene un valor enorme.</p><br>
 
-            <img src="img/carreras/datos/red-neuronal.jpg"
+            <img src="img/carreras/datos/red-neuronal.webp"
                      alt="Visualización de una red neuronal" 
                      style="width: 100%; border-radius: 8px;">
                 <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;text-align: center;">
@@ -144,7 +144,7 @@ const carrerasArticles = {
             <p>Python se ha convertido en el idioma universal del Data Science, y los físicos se adaptan a él fácilmente para trabajar en entornos científicos. Librerías como NumPy, SciPy, Pandas, Matplotlib o Scikit-learn son el pan de cada día, y los entornos de computación en la nube como AWS, Google Cloud o Azure son cada vez más accesibles. Para quien quiera especializarse en deep learning, frameworks como PyTorch o TensorFlow son el siguiente paso lógico.</p><br>
             <p>Pero la capacidad más importante de un físico, algo que ningún framework puede sustituir, más allá de las herramientas, es su capacidad de formular preguntas bien planteadas, de construir modelos con supuestos explícitos y de interpretar los resultados con escepticismo y de manera constructiva. En un mercado saturado de perfiles técnicos, eso marca la diferencia.</p><br>
 
-            <img src="img/carreras/datos/medico.jpg"
+            <img src="img/carreras/datos/medico.webp"
                      alt="Médico utilizando tecnología de vanguardia" 
                      style="width: 100%; border-radius: 8px;">
                 <p style="font-size: 0.85em; color: #666; margin-top: 10px; font-style: italic;text-align: center;">

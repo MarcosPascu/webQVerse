@@ -15,11 +15,11 @@ const eventosArticles = {
 
             <div style="display: flex; gap: 20px; margin: 40px 0; flex-wrap: wrap; justify-content: center;">
                 <div style="flex: 1; min-width: 300px; text-align: center;">
-                    <img src="img/eventos/iquhack/iquhack-foto1.png" alt="Resultado del desafío IonQ - Gráfico 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <img src="img/eventos/iquhack/iquhack-foto1.webp" alt="Resultado del desafío IonQ - Gráfico 1" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                     <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">Nodos capturados.</p>
                 </div>
                 <div style="flex: 1; min-width: 300px; text-align: center;">
-                    <img src="img/eventos/iquhack/iquhack-foto2.png" alt="Resultado del desafío IonQ - Gráfico 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+                    <img src="img/eventos/iquhack/iquhack-foto2.webp" alt="Resultado del desafío IonQ - Gráfico 2" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
                     <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">Circuito de purificación de pares de Bell.</p>
                 </div>
             </div>
@@ -108,12 +108,12 @@ const eventosArticles = {
             <br><h2>Nuestra Solución</h2><br>
             <p>Desarrollamos un sistema integral que combina análisis de datos en tiempo real y rediseño de procesos para optimizar el paso por los arcos de seguridad, reduciendo tiempos de espera y mejorando la experiencia del viajero.</p><br>
 
-            <img src="img/eventos/ilunion_25/Ilunion-presentacion.jpeg" class="image-placeholder"><br>
+            <img src="img/eventos/ilunion_25/Ilunion-presentacion.webp" class="image-placeholder"><br>
 
             <br><h2>La Gran Final</h2><br>
             <p>Tras una larga noche de trabajo, defendimos el proyecto directamente ante la junta directiva de Ilunion. La viabilidad y el impacto innovador de la propuesta nos valieron el primer puesto del certamen.</p><br>
 
-            <img src="img/eventos/ilunion_25/Ilunion_win.jpeg" class="image-placeholder">
+            <img src="img/eventos/ilunion_25/Ilunion_win.webp" class="image-placeholder">
         `
         },
     
