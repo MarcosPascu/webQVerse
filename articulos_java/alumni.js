@@ -46,14 +46,26 @@ const alumniArticles = {
 
             <br><h2>Vídeo resumen de la visita</h2><br>
             <p>Os dejamos a continuación un vídeo con los momentos más destacados de la jornada:</p><br>
-           <div style="max-width: 420px; margin: 20px auto;">
-                <iframe 
-                    src="https://drive.google.com/file/d/1-W5dOun23VSb4pYAfUCUMqN7_YUT7qdC/preview"
-                    width="100%"
-                    height="740"
-                    style="border:none; border-radius:12px; display:block;"
-                    allow="autoplay">
-                </iframe>
+            <div style="display: flex; justify-content: center; margin: 40px 0;">
+                <blockquote 
+                    class="instagram-media" 
+                    data-instgrm-permalink="https://www.instagram.com/reel/DbD8oubj8vj/?utm_source=ig_web_copy_link&amp;igsh=MzRlODBiNWFlZA==" 
+                    data-instgrm-version="14" 
+                    style="
+                        background: #FFF; 
+                        border: 0; 
+                        border-radius: 3px; 
+                        box-shadow: 0 0 1px 0 rgba(0,0,0,0.5), 0 1px 10px 0 rgba(0,0,0,0.15); 
+                        margin: 1px; 
+                        max-width: 540px; 
+                        min-width: 326px; 
+                        padding: 0; 
+                        width: 99.375%;
+                    ">
+                    <a href="https://www.instagram.com/reel/DbD8oubj8vj/?utm_source=ig_web_copy_link&amp;igsh=MzRlODBiNWFlZA==" target="_blank" rel="noopener noreferrer">
+                        Ver esta publicación en Instagram
+                    </a>
+                </blockquote>
             </div>
 
             <br><h2>Reflexiones finales</h2><br>
