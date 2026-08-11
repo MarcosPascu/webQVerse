@@ -2,10 +2,10 @@
 //  Unión de todos los artículos por categoría
 // ─────────────────────────────────────────────
 const articles = {
-    ...proyectosArticles,
-    ...carrerasArticles,
-    ...alumniArticles,
-    ...eventosArticles,
+    ...(typeof proyectosArticles !== 'undefined' ? proyectosArticles : {}),
+    ...(typeof carrerasArticles !== 'undefined' ? carrerasArticles : {}),
+    ...(typeof alumniArticles !== 'undefined' ? alumniArticles : {}),
+    ...(typeof eventosArticles !== 'undefined' ? eventosArticles : {}),
 };
 
 // ─────────────────────────────────────────────
@@ -16,11 +16,24 @@ document.addEventListener('DOMContentLoaded', function () {
     const navMenu = document.querySelector('.nav-menu');
     const navLinks = document.querySelectorAll('.nav-link');
 
+    function updateMobileMenu() {
+        if (window.innerWidth <= 768) {
+            if (navMenu.classList.contains('active')) {
+                navMenu.style.display = 'flex';
+            } else {
+                navMenu.style.display = 'none';
+            }
+        } else {
+            navMenu.style.display = '';
+        }
+    }
+
     // Toggle Mobile Menu
     if (navToggle) {
         navToggle.addEventListener('click', function () {
             navMenu.classList.toggle('active');
             navToggle.classList.toggle('active');
+            updateMobileMenu();
         });
     }
 
@@ -30,9 +43,13 @@ document.addEventListener('DOMContentLoaded', function () {
             if (navMenu && navMenu.classList.contains('active')) {
                 navMenu.classList.remove('active');
                 navToggle.classList.remove('active');
+                updateMobileMenu();
             }
         });
     });
+
+    window.addEventListener('resize', updateMobileMenu);
+    updateMobileMenu();
 
     // Cargar artículo dinámico
     const params = new URLSearchParams(window.location.search);
