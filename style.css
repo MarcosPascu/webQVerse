@@ -393,6 +393,49 @@ img {
     text-transform: uppercase;
 }
 
+.collab-logos-wrapper {
+    background: #fff;
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 28px 24px;
+    max-width: 960px;
+    margin: 0 auto 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+}
+
+.collab-logos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(180px, 1fr));
+    align-items: center;
+    gap: 24px;
+}
+
+.collab-logo-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    min-height: 180px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    padding: 18px;
+}
+
+.collab-logo {
+    width: 100%;
+    max-width: 280px;
+    height: 170px;
+    object-fit: contain;
+    margin: 0 auto;
+    filter: drop-shadow(0 6px 12px rgba(0, 51, 102, 0.05));
+}
+
+.collab-logo-qm-img {
+    background: #fff;
+}
+
 .section-header {
     text-align: center;
     margin-bottom: 50px;
