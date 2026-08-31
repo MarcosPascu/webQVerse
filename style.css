@@ -348,6 +348,51 @@ img {
    TÍTULOS DE SECCIÓN
    ========================================= */
 
+.join-section {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.join-banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    background: linear-gradient(135deg, #f4f9ff 0%, #edf6ff 100%);
+    border: 1px solid #dfeeff;
+    border-radius: 18px;
+    padding: 30px 32px;
+    box-shadow: 0 10px 30px rgba(0, 51, 102, 0.08);
+}
+
+.join-content {
+    flex: 1;
+}
+
+.join-content h2 {
+    font-size: clamp(1.8rem, 2vw, 2.5rem);
+    margin: 10px 0 8px;
+    color: var(--primary-color);
+}
+
+.join-content p {
+    color: var(--secondary-color);
+    font-size: 1.02rem;
+    max-width: 700px;
+}
+
+.tag-active-home {
+    display: inline-block;
+    background-color: rgba(0, 188, 212, 0.12);
+    color: var(--primary-color);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 0.74rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
 .section-header {
     text-align: center;
     margin-bottom: 50px;
